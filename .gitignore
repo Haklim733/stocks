@@ -4,7 +4,13 @@ __pycache__
 .pytest_cache
 .env
 *.egg-info
-
+.envrc
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+**/.direnv
+**/data/
+**/layers
+cdk.context.json
+**/.vscode
+template.yaml
