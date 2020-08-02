@@ -123,7 +123,7 @@ class StocksBackendStack(core.Stack):
         dst_cron = {
            'spring':
                {
-                   'intraday': "cron(0 14-20 ? * MON-FRI *)", 
+                   'intraday': "cron(0 14-20 ? * SUN *)", 
                    'market-open': 'cron(30 13 ? * MON-FRI *)',
                    'market-close': 'cron(45 19 ? * MON-FRI *)',
                    'dst-trigger': 'cron(0 23 ? 3 1#2 *)'
