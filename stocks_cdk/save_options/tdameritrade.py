@@ -7,8 +7,6 @@ import pandas as pd
 
 CONSUMER_KEY = os.environ.get('TD_CONSUMER_KEY')
 ACCESS_KEY = os.environ.get('TD_ACCESS_KEY')
-S3_BUCKET = os.environ.get('S3_BUCKET')
-S3_KEY = os.environ.get('S3_KEY')
 
 
 def get_fundamentals(ticker: str):

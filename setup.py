@@ -5,7 +5,7 @@ with open("README.md") as fp:
 
 setuptools.setup(
     name="stocks_cdk",
-    version="0.2.1",
+    version="0.2.2",
     description=
     "An CDK Python app to download stock data using TDAMERITRADE API",
     long_description=long_description,
@@ -14,7 +14,7 @@ setuptools.setup(
     package_dir={"": "stocks_cdk"},
     packages=setuptools.find_packages(where="stocks_cdk"),
     install_requires=[
-        "aws-cdk.core==1.51.0",
+        "aws-cdk.core==1.56.0",
     ],
     python_requires=">=3.8",
     classifiers=[

@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 import os
 from aws_cdk import (core, aws_lambda as _lambda, aws_iam as iam, aws_events as events, aws_s3_assets as s3assets, aws_s3 as s3,
-                     aws_logs as logs, aws_events_targets as events_targets)
+                     aws_logs as logs, aws_events_targets as events_targets, aws_ssm as ssm)
 from cdk_constants import ManagedPolicies
 import pandas as pd
 
@@ -13,6 +13,8 @@ S3_KEY = os.environ['PROD_KEY']
 USER_ARN = os.environ['PROD_USER_ARN']
 HOOK_URL = os.environ['PROD_FAIL_DEST']
 PROD_USER_ARN = os.environ['PROD_USER_ARN']
+TD_CONSUMER_KEY = os.environ['TD_CONSUMER_KEY']
+TD_ACCESS_KEY = os.environ['TD_ACCESS_KEY']
 
 TEST = True
 if TEST:
@@ -34,8 +36,8 @@ class StocksBackendStack(core.Stack):
 
         role_policies = [
             ManagedPolicies.AMAZON_S3_FULL_ACCESS,
-            # ManagedPolicies.AMAZON_SNS_FULL_ACCESS,
-            ManagedPolicies.AWS_LAMBDA_BASIC_EXECUTION_ROLE
+            ManagedPolicies.AWS_GLUE_SERVICE_ROLE,
+            ManagedPolicies.AWS_LAMBDA_BASIC_EXECUTION_ROLE,
         ]
 
         lambda_resource = iam.ServicePrincipal(
@@ -71,37 +73,40 @@ class StocksBackendStack(core.Stack):
         #          path=Path(__file__).resolve().parent.parent / 'cols_type.json')
                 
         #lambda layers 
-        save_options_layer = _lambda.LayerVersion(self, id="LambdaPythonPackage", 
-                             code=_lambda.Code.from_asset('layers/stocks_lambda_layer.zip'),
+        awswrangler_layer = _lambda.LayerVersion(self, id="AWSWrangler", 
+                             code=_lambda.Code.from_asset('layers/awswrangler/awswrangler-layer-1.6.3-py3.8.zip'),
                              compatible_runtimes=[_lambda.Runtime.PYTHON_3_8],
-                             description = 'python awswrangler, requests, and loguru, pandas-market-calendar packages',
-                             layer_version_name = 'stocks-python-layer')
+                             description='python awswrangler',
+                             layer_version_name='awswrangler3_8')
         
-        vars_layer = _lambda.LayerVersion(self, id="LambdaStaticFile", 
-                             code=_lambda.Code.from_asset('layers/static/'),
+        requests_layer = _lambda.LayerVersion(self, id="RequestsPlus", 
+                             code=_lambda.Code.from_asset('layers/requests/requests.zip'),
                              compatible_runtimes=[_lambda.Runtime.PYTHON_3_8],
-                             description = 'python awswrangler, requests, and loguru, pandas-market-calendar packages',
-                             layer_version_name = 'stocks-static-layer')
-        
+                             description = 'python requests, loguru, pandas_market_calendars',
+                             layer_version_name = 'requestsplus3_8')
         env_vars = {'FAIL_NOTIFICATION_DEST': HOOK_URL,
                     'S3_BUCKET': S3_BUCKET,
-                    'S3_KEY': S3_KEY}
+                    'S3_KEY': S3_KEY,
+                    'TD_CONSUMER_KEY': TD_CONSUMER_KEY,
+                    'TD_ACCESS_KEY': TD_ACCESS_KEY}
         
         save_options_lambda = _lambda.Function(
             self,
             'SaveOptionsData',
             function_name='save_options_data',
             runtime=_lambda.Runtime.PYTHON_3_8,
-            code=_lambda.Code.asset(path='stocks_cdk'),
+            code=_lambda.Code.asset(path='stocks_cdk/save_options/'),
             handler="lambda_save_options.lambda_handler",
             timeout=core.Duration.seconds(amount=360),
             environment=env_vars,
             log_retention=logs.RetentionDays.ONE_MONTH,
             role=_lambda_role,
             memory_size=1280,
-            retry_attempts=2,
-            layers=[save_options_layer, vars_layer],
-            reserved_concurrent_executions=1)
+            retry_attempts=1,
+            layers=[awswrangler_layer, requests_layer],
+            reserved_concurrent_executions=1,
+            profiling=True,
+            )
 
         #lambda to change events scheudle -1/+1 for daylight savings time changes 
         dst_change_lambda = _lambda.Function(
@@ -109,21 +114,21 @@ class StocksBackendStack(core.Stack):
             'DSTChangeLambda',
             function_name='DSTChangeLambda',
             runtime=_lambda.Runtime.PYTHON_3_8,
-            code=_lambda.Code.asset(path='stocks_cdk'),
+            code=_lambda.Code.asset(path='stocks_cdk/dst_change/'),
             handler="dst_change_lambda.lambda_handler",
             timeout=core.Duration.seconds(amount=120),
             environment={'FAIL_NOTIFICATION_DEST': HOOK_URL},
             log_retention=logs.RetentionDays.ONE_MONTH,
             role=_lambda_role,
-            memory_size=512,
-            retry_attempts=2,
+            memory_size=384,
+            retry_attempts=1,
             reserved_concurrent_executions=1)
         
         #scheduling lambda function
         dst_cron = {
            'spring':
                {
-                   'intraday': "cron(0 14-20 ? * SUN *)", 
+                   'intraday': "cron(0 14-20 ? * MON-FRI *)", 
                    'market-open': 'cron(30 13 ? * MON-FRI *)',
                    'market-close': 'cron(45 19 ? * MON-FRI *)',
                    'dst-trigger': 'cron(0 23 ? 3 1#2 *)'
