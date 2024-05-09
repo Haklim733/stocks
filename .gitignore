@@ -1,0 +1,24 @@
+*.swp
+package-lock.json
+**/__pycache__
+.pytest_cache
+.env
+*.egg-info
+.envrc
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+**/.direnv
+**/data/
+cdk.context.json
+**/.vscode
+template.yaml
+**/node_modules
+upload_to_ssmps.py
+ssmps.json
+*.parquet
+**/python
+*.pymon
+*.sh
+**/secret
+**/tmp

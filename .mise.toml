@@ -1,0 +1,3 @@
+[tools]
+poetry = "latest"
+pulumi = "3.113.0"

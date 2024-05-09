@@ -1,0 +1,1076 @@
+Name,Metric Slug,Premium,Category,Statement Type,Periods,Default Period,Description
+Price % of 200 Day Moving Avg,asset_price_pct_avg_200d,No,Valuation,Computed,,,The current stock price expressed as a percentage of the 200 day moving average.
+Price % of 50 Day Moving Avg,asset_price_pct_avg_50d,No,Valuation,Computed,,,The current stock price expressed as a percentage of the 50 day moving average.
+Price % of 52 Week High,asset_price_pct_high_52w,Yes,Valuation,Computed,,,The current stock price expressed as a percentage of the 52 week high.
+Price % of 52 Week Low,asset_price_pct_low_52w,Yes,Valuation,Computed,,,The current stock price expressed as a percentage of the 52 week low.
+52 Week High,asset_price_high_52w,No,Valuation,Computed,D,D,The highest trade price over the last year adjusted for stock splits.
+52 Week Low,asset_price_low_52w,No,Valuation,Computed,D,D,The lowest trade price over the last year adjusted for stock splits.
+52 Week High (Div & Split Adjusted),asset_price_high_adj_52w,No,Valuation,Computed,D,D,The highest trade price over the last year adjusted for stock splits and dividends.
+52 Week Low (Div & Split Adjusted),asset_price_low_adj_52w,No,Valuation,Computed,D,D,The lowest trade price over the last year adjusted for stock splits and dividends.
+YTD Stock Price Total Return,asset_price_return_ytd,No,Valuation,Computed,D,D,"The total change in stock price, adjusted for splits, so far this calendar year."
+1 Week Stock Price Total Return,asset_price_return_1w,No,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 1 week.
+2 Week Stock Price Total Return,asset_price_return_2w,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 2 weeks.
+3 Week Stock Price Total Return,asset_price_return_3w,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 3 weeks.
+4 Week Stock Price Total Return,asset_price_return_4w,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 4 weeks.
+1 Month Stock Price Total Return,asset_price_return_1m,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 1 month.
+3 Month Stock Price Total Return,asset_price_return_3m,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 3 months.
+6 Month Stock Price Total Return,asset_price_return_6m,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 6 months.
+9 Month Stock Price Total Return,asset_price_return_9m,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 9 months.
+1 Year Stock Price Total Return,asset_price_return_1y,No,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 1 year.
+2 Year Stock Price Total Return,asset_price_return_2y,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 2 years.
+3 Year Stock Price Total Return,asset_price_return_3y,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 3 years.
+4 Year Stock Price Total Return,asset_price_return_4y,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 4 years.
+5 Year Stock Price Total Return,asset_price_return_5y,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 5 years.
+7 Year Stock Price Total Return,asset_price_return_7y,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 7 years.
+10 Year Stock Price Total Return,asset_price_return_10y,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 10 years.
+12 Year Stock Price Total Return,asset_price_return_12y,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 12 years.
+15 Year Stock Price Total Return,asset_price_return_15y,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 15 years.
+20 Year Stock Price Total Return,asset_price_return_20y,Yes,Valuation,Computed,D,D,The total change in stock price (adjusted of dividends and splits) over the last 20 years.
+5 Day Moving Avg,asset_price_avg_5d,Yes,Valuation,Computed,D,D,The average stock price over the last 5 trading days.
+10 Day Moving Avg,asset_price_avg_10d,Yes,Valuation,Computed,D,D,The average stock price over the last 10 trading days.
+20 Day Moving Avg,asset_price_avg_20d,Yes,Valuation,Computed,D,D,The average stock price over the last 20 trading days.
+50 Day Moving Avg,asset_price_avg_50d,No,Valuation,Computed,D,D,The average stock price over the last 50 trading days.
+200 Day Moving Avg,asset_price_avg_200d,No,Valuation,Computed,D,D,The average stock price over the last 200 trading days.
+255 Day Moving Avg,asset_price_avg_255d,Yes,Valuation,Computed,D,D,The average stock price over the last 255 trading days.
+"Accounts Payable, Total",ap,Yes,Financials,Balance Sheet,"FY, Q",Q,Amounts payable to vendors extended as a line of credit for normal business purchases.
+"Accounts Receivable, Net",ar,Yes,Financials,Balance Sheet,"FY, Q",Q,The total amount of collectibles for a company net of receivables that are deemed to be uncollectible.
+"Accounts Receivable, Total",ar_gross,Yes,Financials,Balance Sheet,"FY, Q",Q,The total amount of collectibles for a company.
+Accrued Expenses,ae_bnk,Yes,Bank,Balance Sheet,"FY, Q",Q,Metric adjusted for considerations applicable to structure and operations of banks.
+"Accrued Expenses, Total",ae,Yes,Financials,Balance Sheet,"FY, Q",Q,Expenses that have been incurred but not paid.
+Accrued Interest Payable,accr_int_pay,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents the amount of interest accrued in the accounts of banks in respect of interest payable to its customers on its deposits.
+Accrued Interest Receivable,accr_int_receiv,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents interest accrued (i.e. earned but not yet due) on loans, securities, certificates of deposit, or other investments. This item is available only in Banks and Thrifts."
+Accumulated Allowance for Doubtful Accounts,allow_doubt_acct,Yes,Financials,Balance Sheet,"FY, Q",Q,The calculated value of receivables that are deemed to be uncollectible.
+Accumulated Depreciation,accum_dep,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the year-end accumulated balance of amounts provided as depreciation
+on property, plant and equipment till the current year."
+Additional Paid In Capital,add_paid_in,Yes,Financials,Balance Sheet,"FY, Q",Q,The excess over par value paid for common securities.
+Adjusted Funds from Operations,affo,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Funds from operations (FFO) with adjustments made for recurring capital expenditures used to maintain the underlying assets. Typically used to evaluate REITs.
+Adjusted Funds From Operations Growth,affo_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in adjusted funds from operations (AFFO).
+Adjusted Funds From Operations Margin,affo_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Adjusted funds from operations (AFFO) expressed as a percent of revenue.
+Advertising Expense,advertising_marketing,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents expenditure incurred towards advertising, marketing, promotional and publicity. This data item is extracted for 10Ks only."
+AFFO / Share Forecast Consensus Standard Deviation,affo_share_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,The median AFFO / share Forecast submitted by any analyst for the company.
+AFFO / Share Forecast Count of Estimates,affo_share_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted AFFO / share.
+AFFO / Share Forecast High Consensus,affo_share_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a AFFO / share Forecast for the stock.
+AFFO / Share Forecast Low Consensus,affo_share_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest AFFO / share Forecast submitted by any analyst for the company.
+AFFO / Share Forecast Mean Consensus,affo_share_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest AFFO / share Forecast submitted by any analyst for the company.
+AFFO / Share Forecast Median Consensus,affo_share_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average AFFO / share Forecast submitted by any analyst for the company.
+AFFO Forecast,affo_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Projected adjusted funds from operations for the company.
+AFFO Forecast CAGR (10y),affo_proj_cagr_10y,Yes,Forecast,Estimated,,,Ten year compound annual growth rate in forecasted adjusted funds from operations.
+AFFO Forecast CAGR (5y),affo_proj_cagr_5y,Yes,Forecast,Estimated,,,Five year compound annual growth rate in forecasted adjusted funds from operations.
+AFFO Forecast Consensus Standard Deviation,affo_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted adjusted funds from operations.
+AFFO Forecast Count of Estimates,affo_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a AFFO Forecast for the stock.
+AFFO Forecast High Consensus,affo_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest AFFO Forecast submitted by any analyst for the company.
+AFFO Forecast Low Consensus,affo_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest AFFO Forecast submitted by any analyst for the company.
+AFFO Forecast Mean Consensus,affo_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average AFFO Forecast submitted by any analyst for the company.
+AFFO Forecast Median Consensus,affo_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median AFFO Forecast submitted by any analyst for the company.
+AFFO Growth Forecast,affo_proj_growth,Yes,Forecast,Estimated,"FY, Q",FY+1,Period over prior period growth in forecasted adjusted funds from operations.
+AFFO Margin Forecast,affo_proj_margin,Yes,Forecast,Estimated,"FY, Q",FY+1,Forecasted adjusted funds from operations as a percent of forecasted revenue.
+AFFO Yield (Adjusted Funds From Operations),affo_yield_ltm,Yes,Valuation,Computed,"FY, LTM",LTM,Funds from operations (FFO) with adjustments made for recurring capital expenditures used to maintain the underlying assets. Typically used to evaluate REITs.
+Allowance for Loan Losses,allow_ll,Yes,Bank,Balance Sheet,"FY, Q",Q,"This item represents allowance for loan losses, which are provided to absorb possible future losses from loans. The allowances are made after a review of the recoverability of the loans made. This item is available only for banks. This item includes 1. Allowance for loan losses and 2. Valuation allowance. This item excludes 1. Undisbursed portion of loans in process, 2. Unearned premiums, 3. Unearned discounts, 4. Net Deferred Loan Origination Fees, and 5. Documented Interest."
+Altman Z-Score,altman_z_score,Yes,Risk,Computed,"FY, LTM",LTM,A formula used to predict the probability that a firm will go into bankruptcy within two years.
+Amort. Of Goodwill & Intangible Assets,gw_intan_amort_bnk,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents the periodic write-off of intangible assets like patents, trademarks, copyrights, software rights etc, reported by the company in Income statement. This item may include the portion attributable to amortization of goodwill also, when the company reports both amortisation of goodwill and intangibles in a combined line item."
+Amort. Of Goodwill & Intangible Assets,gw_intan_amort_ins,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the amortization expense related to Goodwill and Intangible Assets.
+Amortization of Deferred Charges (CF),amort_def_charges,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item represents both amortization and write-off of deferred expenses. Deferred charges result from prepayment of expenses of capital nature (not represented by tangible assets) whose benefit, usually will extend over a period of years from the time of incurrence and so is carried forward for expensing in future years."
+Amortization Of Film Costs,amort_film_costs,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents amortization of costs incurred for film production. This type of expenditure is very common for companies which are in film production and media businesses.
+Analyst Price Target Count,analyst_target_count,Yes,Valuation,Computed,D,D,The number of analyst price targets tracked for a stock. Price targets represent what analysts believe a stock will be worth within the next 12 to 18 months.
+Analyst Price Target High,analyst_target_high,Yes,Valuation,Computed,D,D,The highest analyst price target for a stock. Price targets represent what analysts believe a stock will be worth within the next 12 to 18 months.
+Analyst Price Target Low,analyst_target_low,Yes,Valuation,Computed,D,D,The lowest analyst price target for a stock. Price targets represent what analysts believe a stock will be worth within the next 12 to 18 months.
+Analyst Price Target Mean,analyst_target_mean,Yes,Valuation,Estimated,D,D,The mean or average analyst price target for a stock. Price targets represent what analysts believe a stock will be worth within the next 12 to 18 months.
+Analyst Price Target Median,analyst_target_median,Yes,Valuation,Estimated,D,D,The median analyst price target for a stock. Price targets represent what analysts believe a stock will be worth within the next 12 to 18 months.
+Analyst Price Target Standard Deviation,analyst_target_stdev,Yes,Valuation,Estimated,D,D,The standard deviation in the analyst price targets for a stock. Price targets represent what analysts believe a stock will be worth within the next 12 to 18 months.
+Announcement Date of Last Dividend,last_div_announced_date,Yes,Dividends,Computed,D,D,Announcement date of the last dividend.
+"As Reported, Total Revenue",total_rev_as_reported,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the total revenues as reported by the company in its financial statement. This data item is available only when the company reports total revenues.
+Asset Efficiency,asset_efficiency,Yes,Risk,Computed,"FY, LTM",LTM,A ratio that measures the amount of cash flow that a company generates from its assets.
+Asset Management Fee,asset_mgmt_fee,Yes,Financials,Misc,"FY, Q, LTM, YTD",LTM,"This item represents the fees earned from managing the assets of third party. Also includes fees earned on providing banking services like check writing, credit cards and debit cards, brokerage features like buying securities and making loans on margin & the convenience of having all financial transactions listed on one monthly statement."
+Asset Turnover,asset_turns,Yes,Efficiency,Computed,"FY, Q, LTM",LTM,A ratio that measures the dollars in revenue a company generates per dollar of assets.
+Asset Writedown,asset_writedown,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,An expense incurred when the carrying value of an asset is greater than its fair value and it is written down or decreased in value to equal its current fair value.
+"Assets of Discontinued Operations, Current",do_assets_current,Yes,Financials,Balance Sheet,"FY, Q",Q,The aggregate value of current assets from business segments that a company has disposed of or wants to dispose of in the near future.
+"Assets of Discontinued Operations, Long-term",do_assets_lt,Yes,Financials,Balance Sheet,"FY, Q",Q,The aggregate value of non-current assets from business segments that a company has disposed of or wants to dispose of in the near future.
+"Assets on Oper. Lease, Accum. Depr.",assets_oper_lease_depr,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the closing i.e. year-end accumulated balances of amounts provided as depreciation over the life of the assets given by the company on operating leases to others, till the end of the current year."
+"Assets on Oper. Lease, Gross",assets_oper_lease_gross,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the Assets of a durable nature i.e. property, plant and equipment, at their gross values, which are given by the company on operating leases to others rather than being used in the production or sale of goods."
+"Assets Under Cap. Lease, Accum. Depr.",assets_cap_lease_depr,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the closing i.e. year-end accumulated balances of amounts provided as depreciation over the life of the assets taken by the company on capital leases from others, till the end of the current year."
+Average Assets,avg_bank_assets,Yes,Bank,Computed,"FY, Q",Q,Average of beginning and ending bank asset balances.
+Average Daily Dollar Volume (3m),volume_dollar_avg_3m,Yes,Valuation,Computed,"FY, LTM",LTM,The three-month average of shares traded each day multiplied by the stock price.
+Average Daily Volume (3m),volume_avg_3m,No,Valuation,Computed,"FY, Q, LTM, YTD",LTM,The three-month average of shares traded each day.
+Average Loans,avg_bank_loans,Yes,Bank,Computed,"FY, Q",Q,Average of beginning and ending bank loan balances.
+Avg AFFO Margin Forecast (10y),affo_proj_margin_avg_10y,Yes,Forecast,Estimated,,,Ten year average forecasted adjusted funds from operations (AFFO) margin.
+Avg AFFO Margin Forecast (5y),affo_proj_margin_avg_5y,Yes,Forecast,Estimated,,,Five year average forecasted adjusted funds from operations (AFFO) margin.
+Avg Book / Market (10y),book_to_market_avg_10y,Yes,Valuation,Computed,,,Five-year quarterly average Book / Market.
+Avg Book / Market (5y),book_to_market_avg_5y,Yes,Valuation,Computed,,,Five-year quarterly average Book / Market.
+Avg Capital Expenditures Margin (10y),capex_margin_avg_10y,Yes,Efficiency,Computed,,,Five-year quarterly average capital expenditures margin.
+Avg Capital Expenditures Margin (5y),capex_margin_avg_5y,Yes,Efficiency,Computed,,,Five-year quarterly average capital expenditures margin.
+Avg EBIT Margin (10y),ebit_margin_avg_10y,Yes,Efficiency,Computed,,,Five-year quarterly average EBIT margin.
+Avg EBIT Margin (5y),ebit_margin_avg_5y,Yes,Efficiency,Computed,,,Five-year quarterly average EBIT margin.
+Avg EBIT Margin Forecast (10y),ebit_proj_margin_avg_10y,Yes,Forecast,Computed,,,Ten year average forecasted earnings before interest and taxes (EBIT) margin.
+Avg EBIT Margin Forecast (5y),ebit_proj_margin_avg_5y,Yes,Forecast,Computed,,,Five year average forecasted earnings before interest and taxes (EBIT) margin.
+Avg EBITDA Margin (10y),ebitda_margin_avg_10y,Yes,Efficiency,Computed,,,Five-year quarterly average EBITDA margin.
+Avg EBITDA Margin (5y),ebitda_margin_avg_5y,Yes,Efficiency,Computed,,,Five-year quarterly average EBITDA margin.
+Avg EBITDA Margin Forecast (10y),ebitda_proj_margin_avg_10y,Yes,Forecast,Computed,,,"Ten year average forecasted earnings before interest, taxes, depreciation and amortization (EBITDA) margin."
+Avg EBITDA Margin Forecast (5y),ebitda_proj_margin_avg_5y,Yes,Forecast,Computed,,,"Five year average forecasted earnings before interest, taxes, depreciation and amortization (EBITDA) margin."
+Avg EV / EBIT (10y),ev_to_ebit_ltm_avg_10y,Yes,Valuation,Computed,,,Five-year quarterly average EV / EBIT.
+Avg EV / EBIT (5y),ev_to_ebit_ltm_avg_5y,Yes,Valuation,Computed,,,Five-year quarterly average EV / EBIT.
+Avg EV / EBITDA (10y),ev_to_ebitda_ltm_avg_10y,Yes,Valuation,Computed,,,Five-year quarterly average EV / EBITDA.
+Avg EV / EBITDA (5y),ev_to_ebitda_ltm_avg_5y,Yes,Valuation,Computed,,,Five-year quarterly average EV / EBITDA.
+Avg EV / Revenue (10y),ev_to_revenue_ltm_avg_10y,Yes,Valuation,Computed,,,Five-year quarterly average EV / Revenue.
+Avg EV / Revenue (5y),ev_to_revenue_ltm_avg_5y,Yes,Valuation,Computed,,,Five-year quarterly average EV / Revenue.
+Avg FCF Yield (10y),fcf_yield_avg_10y,Yes,Valuation,Computed,,,Five-year quarterly average FCF Yield.
+Avg FCF Yield (5y),fcf_yield_avg_5y,Yes,Valuation,Computed,,,Five-year quarterly average FCF Yield.
+Avg FFO Margin Forecast (10y),ffo_proj_margin_avg_10y,Yes,Forecast,Estimated,,,Ten year average forecasted funds from operations (AFFO) margin.
+Avg FFO Margin Forecast (5y),ffo_proj_margin_avg_5y,Yes,Forecast,Estimated,,,Five year average forecasted funds from operations (AFFO) margin.
+Avg Gross Profit Margin (10y),gp_margin_avg_10y,Yes,Efficiency,Computed,,,Ten-year quarterly average gross profit margin.
+Avg Gross Profit Margin (5y),gp_margin_avg_5y,Yes,Efficiency,Computed,,,Five-year quarterly average gross profit margin.
+Avg Net Income Margin Forecast (10y),ni_proj_margin_avg_10y,Yes,Forecast,Computed,,,Ten year average forecasted net income margin.
+Avg Net Income Margin Forecast (5y),ni_proj_margin_avg_5y,Yes,Forecast,Computed,,,Five year average forecasted net income margin.
+Avg Net Income to Stockholders Margin (10y),ni_margin_avg_10y,Yes,Efficiency,Computed,,,Five-year quarterly average net profit margin.
+Avg Net Income to Stockholders Margin (5y),ni_margin_avg_5y,Yes,Efficiency,Computed,,,Five-year quarterly average net profit margin.
+Avg NOPAT Margin Forecast (10y),nopat_proj_margin_avg_10y,Yes,Forecast,Computed,,,Ten year average forecasted net operating profit after tax margin.
+Avg NOPAT Margin Forecast (5y),nopat_proj_margin_avg_5y,Yes,Forecast,Computed,,,Five year average forecasted net operating profit after tax margin.
+Avg Operating Income Margin (10y),oper_inc_margin_avg_10y,Yes,Efficiency,Computed,,,Five-year quarterly average operating income margin.
+Avg Operating Income Margin (5y),oper_inc_margin_avg_5y,Yes,Efficiency,Computed,,,Five-year quarterly average operating income margin.
+Avg P/E Ratio (10y),pe_ltm_avg_10y,Yes,Valuation,Computed,,,Five-year quarterly average P/E ratio.
+Avg P/E Ratio (5y),pe_ltm_avg_5y,Yes,Valuation,Computed,,,Five-year quarterly average P/E ratio.
+Avg P/E Ratio (Adjusted) (10y),pe_ltm_adj_avg_10y,Yes,Valuation,Computed,,,Five-year quarterly average P/E ratio (adjusted).
+Avg P/E Ratio (Adjusted) (5y),pe_ltm_adj_avg_5y,Yes,Valuation,Computed,,,Five-year quarterly average P/E ratio (adjusted).
+Avg Price / Book (10y),price_to_book_avg_10y,Yes,Valuation,Computed,,,Five-year quarterly average Price / Book.
+Avg Price / Book (5y),price_to_book_avg_5y,Yes,Valuation,Computed,,,Five-year quarterly average Price / Book.
+Avg Price / LTM Sales (10y),price_to_sales_ltm_avg_10y,Yes,Valuation,Computed,,,Five-year quarterly average Price / LTM Sales.
+Avg Price / LTM Sales (5y),price_to_sales_ltm_avg_5y,Yes,Valuation,Computed,,,Five-year quarterly average Price / LTM Sales.
+Avg Return on Assets (10y),roa_avg_10y,Yes,Efficiency,Computed,,,Five-year quarterly average return on assets.
+Avg Return on Assets (5y),roa_avg_5y,Yes,Efficiency,Computed,,,Five-year quarterly average return on assets.
+Avg Return on Common Equity (10y),roe_avg_10y,Yes,Efficiency,Computed,,,Five-year quarterly average return on common equity.
+Avg Return on Common Equity (5y),roe_avg_5y,Yes,Efficiency,Computed,,,Five-year quarterly average return on common equity.
+Avg Return on Invested Capital (10y),roic_avg_10y,Yes,Efficiency,Computed,,,Five-year quarterly average return on invested capital.
+Avg Return on Invested Capital (5y),roic_avg_5y,Yes,Efficiency,Computed,,,Five-year quarterly average return on invested capital.
+Avg Unlevered FCF Margin Forecast (10y),fcf_unlev_proj_margin_avg_10y,Yes,Forecast,Computed,,,Ten year average forecasted unlevered free cash flow margin.
+Avg Unlevered FCF Margin Forecast (5y),fcf_unlev_proj_margin_avg_5y,Yes,Forecast,Computed,,,Five year average forecasted unlevered free cash flow margin.
+Balance Sheet Restatement Type,restatement_bs,Yes,Financials,Balance Sheet,"FY, Q, LTM, YTD",LTM,
+Basic EPS (Cont. Ops),eps_basic_cont,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Company's net earnings or losses from continuing operations on a per basic share basis.
+Basic EPS (Cont. Ops) CAGR (10y),eps_basic_cont_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in basic eps (cont. ops).
+Basic EPS (Cont. Ops) CAGR (15y),eps_basic_cont_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in basic eps (cont. ops).
+Basic EPS (Cont. Ops) CAGR (20y),eps_basic_cont_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in basic eps (cont. ops).
+Basic EPS (Cont. Ops) CAGR (3y),eps_basic_cont_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in basic eps (cont. ops).
+Basic EPS (Cont. Ops) CAGR (5y),eps_basic_cont_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in basic eps (cont. ops).
+Basic EPS (Cont. Ops) CAGR (7y),eps_basic_cont_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in basic eps (cont. ops).
+Basic EPS (Cont. Ops) Growth,eps_basic_cont_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in basic eps (cont. ops).
+Basic EPS CAGR (10y),eps_basic_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in basic eps.
+Basic EPS CAGR (15y),eps_basic_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in basic eps.
+Basic EPS CAGR (20y),eps_basic_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in basic eps.
+Basic EPS CAGR (3y),eps_basic_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in basic eps.
+Basic EPS CAGR (5y),eps_basic_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in basic eps.
+Basic EPS CAGR (7y),eps_basic_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in basic eps.
+Basic EPS Growth,eps_basic_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in basic eps.
+Basic EPS Incl Extra Items,eps_basic,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Company's net earnings or losses from continuing operations adjusted for certain one-time items on a per basic share basis.
+"Basic EPS, Adjusted",eps_basic_adj,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents Basic EPS excluding unusual items.
+Beginning Cash (CF),cash_begin,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents cash and cash equivalents as at the beginning of the period.
+Ben Graham Formula Upside,ben_graham_upside,Yes,Valuation,Computed,"FY, LTM",LTM,"The percentage increase (if positive) or decrease (if negative) an investor can expect over the current stock price based on the Ben Graham Formula Value. The Ben Graham Formula Value estimates a stock's intrinsic value based on a formula inspired by investor and professor, Benjamin Graham."
+Ben Graham Formula Value,ben_graham_value,Yes,Valuation,Computed,"FY, LTM",LTM,"The Ben Graham Formula Value estimates a stock's intrinsic value based on a formula inspired by investor and professor, Benjamin Graham."
+Ben Graham Number,ben_graham_number,Yes,Valuation,Computed,"FY, LTM",LTM,"A calculation inspired by Benjamin Graham often who is called the ""father of value investing."" The Graham Number estimates a stock's fundamental value by taking into account the company's earnings per share and book value per share."
+Ben Graham Number Upside,ben_graham_number_upside,Yes,Valuation,Computed,"FY, LTM",LTM,"The percentage increase (if positive) or decrease (if negative) an investor can expect over the current stock price based on the Ben Graham Number. The Ben Graham Number estimates a stock's intrinsic value based on a formula inspired by investor and professor, Benjamin Graham."
+Beneish M-Score,beneish_mscore,Yes,Risk,Computed,"FY, LTM",LTM,A statistical score that uses financial ratios to identify whether a company has manipulated its earnings
+Beta (1 Year),beta_1y,Yes,Risk,Computed,,,A ratio that measures the risk or volatility of a company's share price in comparison to the market as a whole. Beta (1 Year) is calculated using one year of weekly returns.
+Beta (2 Year),beta_2y,Yes,Risk,Computed,,,A ratio that measures the risk or volatility of a company's share price in comparison to the market as a whole. Beta (2 Year) is calculated using two years of weekly returns.
+Beta (5 Year),beta,No,Risk,Computed,,,A ratio that measures the risk or volatility of a company's share price in comparison to the market as a whole. A beta of 1.0 means that that the company rises and falls in direct relationship to the movement of the benchmark index. A beta that is less than 1 indicates a stock that is less volatile than the overall market and a beta greater than 1 indicates that the stock is more volatile.
+Book Value / Market Cap,book_to_market,No,Valuation,Computed,"FY, LTM",LTM,Compares a firm's common equity listed on the balance to the market value of equity.
+Book Value / Share,bv_share,Yes,Financials,Computed,"FY, Q",Q,The book value of common equity on a per basic share basis.
+Book Value per Share (Reported),bv_share_reported,Yes,Financials,Computed,"FY, Q",Q,"If reported by the company, the book value of common equity on a per basic share basis. Use bv_share if you would like the value computed by finbox."
+Buildings,buildings,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the Assets of a durable nature in the form of Building held by the company, at their gross values, which are to be used in the production or sale of goods, sale of other goods or rendering of services rather than being held for sale."
+Business Divestitures,divest_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item represents cash inflows from disposition of a company, product line, operation, business or partial interest in a consolidated subsidiary."
+Buyback Yield,buyback_yield,Yes,Valuation,Computed,"FY, LTM",LTM,A ratio that measures the difference between the amount of share repurchases and the amount of share issuances over the trailing twelve months divided by the company's market capitalization.
+Capital Expenditures,capex,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"The overall change in capital expenditures and sales of plant, property and equipment. This field is used if a company does not report separately sales and purchases of plant, property and equipment or is calculated as the sum of purchases and sales of PP&E"
+Capital Expenditures Coverage,capex_coverage,Yes,Risk,Computed,"FY, Q, LTM, YTD",LTM,The amount a company outlays for capital assets for each dollar of cash dollar it generates from those investments.
+Capital Expenditures Forecast,capex_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Projected capital expenditures.
+Capital Expenditures Forecast Consensus Standard Deviation,capex_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasting capital expenditures.
+Capital Expenditures Forecast Count of Estimates,capex_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a capital expenditures forecast for the stock.
+Capital Expenditures Forecast High Consensus,capex_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest capital expenditures forecast submitted by any analyst for the company.
+Capital Expenditures Forecast Low Consensus,capex_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest capital expenditures forecast submitted by any analyst for the company.
+Capital Expenditures Forecast Mean Consensus,capex_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average capital expenditures forecast submitted by any analyst for the company.
+Capital Expenditures Forecast Median Consensus,capex_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median capital expenditures forecast submitted by any analyst for the company.
+Capital Expenditures Growth,capex_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in capital expenditures.
+Capital Expenditures Growth Forecast,capex_proj_growth,Yes,Forecast,Computed,"FY, Q",FY+1,Period over prior period growth in forecasted capital expenditures.
+Capital Expenditures Margin,capex_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Capital expenditures expressed as percent of revenue.
+Capital Expenditures Margin Forecast,capex_proj_margin,Yes,Forecast,Computed,"FY, Q",FY+1,Forecasted capital expenditures as a percent of forecasted revenue.
+Capital Leases,capital_leases,Yes,Financials,Balance Sheet,"FY, Q",Q,The non-current portion of long term capital leases.
+Capitalized / Purchased Software,software,Yes,Financials,Balance Sheet,"FY, Q",Q,"Software and software development costs that are capitalized into an asset and amortized over time. This field is used if capitalized software is not included in plant, property and equipment line items."
+Cash / Total Capital,cash_to_capital,Yes,Risk,Computed,"FY, LTM",LTM,A ratio that measures the level of the cash relative to the market value of total capital.
+Cash Acquisitions,cash_acquire_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The amount of cash spent by the company to acquire companies in the given period.
+Cash Amount of Last Dividend,last_div_cash_amount,Yes,Dividends,Computed,D,D,Cash dividend amount on a per-share basis.
+Cash Amount of Last Dividend (Split Adj),last_div_cash_amount_split_adj,Yes,Dividends,Computed,D,D,"Cash dividend amount on a per-share basis, adjusted for stock splits."
+Cash And Equivalents,cash,Yes,Financials,Balance Sheet,"FY, Q",Q,The amount of cash held by the company for the given period.
+Cash And Equivalents,cash_equiv,Yes,Financials,Balance Sheet,"FY, Q",Q,The amount of cash held by the company for the given period.
+Cash And ST Investments CAGR (10y),cash_st_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in total cash and short-term investments.
+Cash And ST Investments CAGR (15y),cash_st_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in total cash and short-term investments.
+Cash And ST Investments CAGR (20y),cash_st_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in total cash and short-term investments.
+Cash And ST Investments CAGR (3y),cash_st_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in total cash and short-term investments.
+Cash And ST Investments CAGR (5y),cash_st_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in total cash and short-term investments.
+Cash And ST Investments CAGR (7y),cash_st_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in total cash and short-term investments.
+Cash Conversion Cycle,cash_conversion_cycle,Yes,Efficiency,Computed,"FY, LTM",LTM,A metric that compares the amount of days it takes a company to sell inventory and collect receivables relative to the amount of days afforded to pay bills.
+Cash Deposits Interest Bearing,int_bearing_deposits,Yes,Bank,Balance Sheet,"FY, Q",Q,"This item represents cash deposits by customers in a bank, representing the depositors' right to an equivalent amount of money from the bank with interest."
+Cash Flow / Total Debt,ocf_to_debt,Yes,Risk,Computed,"FY, LTM",LTM,A ratio used in two ways - a) to measure cash flow coverage and b) the inverse ratio to estimate the length of time needed to pay off debts.
+Cash Flow to Current Liabilities,ocf_to_liabilities_cur,Yes,Risk,Computed,"FY, LTM",LTM,A ratio that measures the amount of operating cash flow a firm generates on each dollar of current liabilities.
+Cash Flow to Liabilities,ocf_to_liabilities,Yes,Risk,Computed,"FY, LTM",LTM,A ratio that measures the amount of operating cash flow a firm generates on each dollar of total liabilities.
+Cash from Financing,cash_from_financing,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The net amount of cash transactions used in funding activities
+Cash from Investing,cash_from_investing,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The total change in cash resulting from a company's investments
+Cash from Operations,cash_from_operations,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,A company's cash flows from operations.
+Cash Interest Paid,cash_interest,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The amount of interest expense paid by the company in cash for the given period.
+Cash Ratio,cash_ratio,Yes,Risk,Computed,"FY, Q",Q,A strict ratio used to assess a company's short-term liquidity.
+Cash Return On Invested Capital (CROIC),croic,Yes,Efficiency,Computed,"FY, LTM",LTM,A ratio that measures the amount of free cash flow a firm generates on each dollar of capital invested (debt + equity).
+Change In Accounts Payable,change_ap,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The increase or decrease in trade payables for the given period.
+Change In Accounts Receivable,change_ar,Yes,Financials,Balance Sheet,"FY, Q, LTM, YTD",LTM,The increase or decrease in accounts receivable for the given period.
+Change In Income Taxes,change_inc_tax,Yes,Financials,Cash Flow Statement,"FY, Q",Q,Changes in income tax accounts
+Change In Inventories,change_inventory,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The increase or decrease in a company's inventories for the period.
+Change in Net Working Capital,change_net_working_capital,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Periodic change in Net Working Capital.
+Change in Other Net Operating Assets,change_other_work_cap,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,Changes in accounts payable and accrued liabilities
+Common Dividends Paid,gross_divid,Yes,Dividends,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The cash outflow for dividends paid on a company's common stock
+Common Shares In Treasury,treasury_shares,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents the number of common shares repurchased or reacquired by the corporation (from market or directly from stockholders) at the end of a period
+"Common Stock, Total",common_stock,Yes,Financials,Balance Sheet,"FY, Q",Q,The value of net common equity ownership.
+Comprehensive Income and Other,other_equity,Yes,Financials,Income Statement,"FY, Q",Q,This item represents the residuary line items forming part of the shareholder's equity block which do not perfectly fit into any specific category or head.
+Comprehensive Income and Other,other_equity_bnk,Yes,Bank,Income Statement,"FY, Q",Q,"This item represents the sum total of changes in equity during a period from events relating to non-owner sources, the estimated amounts to be paid under contracts and all other items forming part of the Shareholder's Equity block which do not fit into any specific category or head."
+"Consensus AFFO / Share, Actual",affo_share_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Reported AFFO per share including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis since deciding which add backs are truly ""unusual"" is subjective."
+"Consensus AFFO, Actual",affo_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Reported AFFO including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis since deciding which add backs are truly ""unusual"" is subjective. Consider using ""affo"" slug instead for other analysis."
+"Consensus Capital Expenditures, Actual",capex_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Capital expenditures including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis. Consider using ""capex"" slug instead for other analysis."
+"Consensus Dividends Per Share, Actual",div_share_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Dividends per share including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis. Consider using ""div_share"" slug instead for other analysis."
+"Consensus EBIT, Actual",ebit_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Reported EBIT including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis since deciding which add backs are truly ""unusual"" is subjective. Consider using ""ebit"" slug instead for other analysis."
+"Consensus EBITDA, Actual",ebitda_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Reported EBITDA including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis since deciding which add backs are truly ""unusual"" is subjective. Consider using ""ebitda"" slug instead for other analysis."
+"Consensus EPS, Actual",eps_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Reported EPS including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis since deciding which add backs are truly ""unusual"" is subjective. Consider using ""eps_diluted_cont"" slug instead for other analysis."
+"Consensus FFO / Share, Actual",ffo_share_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Reported FFO per share including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis since deciding which add backs are truly ""unusual"" is subjective."
+"Consensus FFO, Actual",ffo_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Reported FFO including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis since deciding which add backs are truly ""unusual"" is subjective. Consider using ""ffo"" slug instead for other analysis."
+"Consensus Net Income, Actual",ni_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Reported net income including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis since deciding which add backs are truly ""unusual"" is subjective. Consider using ""ni"" slug instead for other analysis."
+Consensus Recommendation,analyst_rec,Yes,Valuation,Computed,D,D,"This item represents opinion expressed by the analysts on the stock performance over a short term period. Our data provider provides both the Broker Recommendations and Standardized Recommendations. Capital IQ will standardize all the individual recommendations across the brokers on a 1- 5 point scale. On this scale, 1 represents a Strong Buy, 3 a Hold and 5 a Sell."
+"Consensus Revenue, Actual",revenue_actual,Yes,Forecast,Estimated,"FY, Q",FY,"Reported revenue including any adjustments for unusual items proposed by management. This metric is useful for analyst forecast vs actual analysis since deciding which add backs are truly ""unusual"" is subjective. Consider using ""total_rev"" slug instead for other analysis."
+Construction in Progress,cip,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents that portion of gross assets (i.e. the capitalized amounts incurred on the construction of property) which are in the course of construction.
+Cost of Debt (After-tax),cost_debt_aftax,Yes,Valuation,Computed,,,Finbox's estimate of the after tax cost of debt for a company.
+Cost of Debt (Pre-tax),cost_debt_pretax,Yes,Valuation,Computed,,,Finbox's estimate of the pre tax cost of debt for a company.
+Cost of Equity,cost_equity,Yes,Valuation,Computed,,,Finbox's estimate of the rate of return required by equity holders.
+Cost of Goods Sold Margin,cogs_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Cost Of Goods Sold (COGS) or Cost of Sales (COS) expressed as a percent of revenue.
+"Cost of Goods Sold, Total",cogs,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Expense that reflects production and sales costs.
+Cost of Revenue CAGR (10y),cogs_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in cost of revenue.
+Cost of Revenue CAGR (15y),cogs_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in cost of revenue.
+Cost of Revenue CAGR (20y),cogs_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in cost of revenue.
+Cost of Revenue CAGR (3y),cogs_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in cost of revenue.
+Cost of Revenue CAGR (5y),cogs_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in cost of revenue.
+Cost of Revenue CAGR (7y),cogs_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in cost of revenue.
+Cost of Revenue Growth,cogs_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in cost of revenue.
+Currency of Last Dividend,last_div_currency,Yes,Dividends,Computed,D,D,Currency of the last dividend.
+Current Domestic Taxes,curr_domestic_taxes,Yes,Financials,Balance Sheet,"FY, Q, LTM, YTD",LTM,"This item represents the current amount of domestic taxes, payable by the company to its home country. For a US Company, taxes payable to U.S. government will be current domestic taxes. For a non-U.S. company, taxes payable to its own country government will be considered as current domestic taxes."
+Current Foreign Taxes,curr_foreign_taxes,Yes,Financials,Balance Sheet,"FY, Q, LTM, YTD",LTM,"This item represents the current amount of income taxes, payable by the company to countries other than its home country. For a U.S. company, taxes payable in another country will be foreign taxes. For a non-U.S. company, taxes payable to Government other than its home country will be foreign taxes."
+Current Income Taxes Payable,inc_tax_pay_current,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents accrued portion of Income taxes levied on the Corporate Income. If Income Taxes are combined with any other taxes or any other liabilities, where income taxes appear as first string and the company does not report the break up for the same, then the same will form part of this data item only."
+Current Portion of Capital Lease Obligations,current_port_leases,Yes,Financials,Balance Sheet,"FY, Q",Q,The portion of long term capital leases which is due in the upcoming year.
+Current Portion of LT Debt,current_port_debt,Yes,Financials,Balance Sheet,"FY, Q",Q,The portion of long term debt which is due in the upcoming year.
+Current Portion of LT Debt & Capital Leases,current_port_debt_leases,Yes,Financials,Balance Sheet,"FY, Q",Q,The portion of long term debt and capital leases which is due in the upcoming year.
+Current Portion of Operating Lease Liabilities,current_port_op_lease,Yes,Financials,Balance Sheet,"FY, Q",Q,The portion of operating lease liabilities which is due in the upcoming year.
+Current Portion of Total Debt,current_total_debt,Yes,Financials,Balance Sheet,"FY, Q",Q,"The sum of Short-term Borrowings, Current Portion of LT Debt and Capital Leases, Current due within the next year."
+Current Ratio,current_ratio,Yes,Risk,Computed,"FY, Q, LTM, YTD",LTM,A ratio that compares a company's current total assets to its current total liabilities.
+D&A Forecast,da_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Projected depreciation and amortization expense.
+Daily Close (Trading Days Only),asset_price_close_trading,No,Valuation,Computed,D,D,The trading day's adjusted closing stock price. Only returns data for trading days.
+Daily High (Trading Days Only),asset_price_high_trading,No,Valuation,Computed,D,D,The highest trading price a stock reached during a trading day. Only returns data for trading days.
+Daily Low (Trading Days Only),asset_price_low_trading,No,Valuation,Computed,D,D,The lowest trading price a stock reached during a trading day. Only returns data for trading days.
+Daily Open (Trading Days Only),asset_price_open_trading,No,Valuation,Computed,D,D,The trading day's adjusted opening stock price. Only returns data for trading days.
+Daily Stock Price High (Adjusted),asset_price_high,Yes,Valuation,Computed,D,D,The highest trade price over the trading day.
+Daily Stock Price Low (Adjusted),asset_price_low,Yes,Valuation,Computed,D,D,The lowest trade price over the trading day.
+Daily Stock Price Open (Adjusted),asset_price_open,Yes,Valuation,Computed,D,D,The opening trade price over the trading day.
+Damodaran's Industry Cost of Capital,cost_capital_industry,Yes,Valuation,Computed,,,"A general benchmark for the cost of capital in an industry based on research by Professor Damodaran at New York University, Stern."
+Damodaran's Industry Cost of Debt,cost_debt_industry,Yes,Valuation,Computed,,,"A general benchmark for the cost of debt in an industry based on research by Professor Damodaran at New York University, Stern."
+Damodaran's Industry Cost of Equity,cost_equity_industry,Yes,Valuation,Computed,,,"A general benchmark for the cost of equity in an industry based on research by Professor Damodaran at New York University, Stern."
+Days Inventory Outstanding,days_inventory_out,Yes,Efficiency,Computed,"FY, LTM",LTM,A working capital efficiency ratio used to estimate the average number of days the firm holds inventory before selling it customers.
+Days Payables Outstanding,days_payables_out,Yes,Efficiency,Computed,"FY, LTM",LTM,A working capital efficiency ratio used to estimate the average number of days the firm has to pay its suppliers.
+Days Sales Outstanding,days_sales_out,Yes,Efficiency,Computed,"FY, LTM",LTM,A working capital efficiency ratio used to estimate the average number of days the firm takes to collect its receivables.
+Days To Next Earnings,days_to_earnings,Yes,Valuation,Computed,,,An estimate of the number of days until the next earnings report.
+Debt / Equity,debt_to_equity,Yes,Risk,Computed,"FY, Q",Q,A ratio that measures the level of the debt relative to the book value of common equity.
+Debt / Tangible Equity,debt_to_equity_tangible,Yes,Risk,Computed,"FY, Q",Q,A ratio that measures the level of the debt relative to the book value of tangible common equity.
+Debt Paydown Yield,debt_paydown_yield,Yes,Valuation,Computed,"FY, LTM",LTM,A ratio that measures the net change in long term debt over the trailing twelve months divided by the company's market capitalization.
+Deferred Charges Long-term,def_charges_lt,Yes,Financials,Balance Sheet,"FY, Q",Q,Non-current costs that are deferred and amortized over time or prepaid and earned at a later date.
+"Deferred Charges, Current",def_charges_current,Yes,Financials,Balance Sheet,"FY, Q",Q,A current asset arising from costs that have been paid where the benefits are deferred to a later date.
+Deferred Compensation,comp_deferred,Yes,Financials,Balance Sheet,"FY, Q",Q,An amount of stock set aside for purchase through employee compensation deferral plans.
+Deferred Domestic Taxes,deferred_domestic_taxes,Yes,Financials,Balance Sheet,"FY, Q, LTM, YTD",LTM,"This item represents the deferred amount of domestic taxes, payable by the company to its home country. For a US Company, taxes deferred to the U.S. government will be deferred domestic taxes. For a non-U.S. company, taxes deferred to its own country government will be considered as deferred domestic taxes."
+Deferred Foreign Taxes,deferred_foreign_taxes,Yes,Financials,Balance Sheet,"FY, Q, LTM, YTD",LTM,"This item represents the deferred amount of taxes, payable by the company to countries other than its home country. For a U.S. company, taxes deferred in another country will be deferred foreign taxes. For a non-U.S. company, taxes deferred to US Government will be deferred foreign taxes."
+Deferred Policy Acq. Costs,def_policy_acq_costs,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents the portion of policy acquisition costs deferred by the company. Expenses incurred on soliciting and acquiring new business is capitalized and amortized over the period of the policies. The amount charged to revenue each year is in the same proportion that annual premium received on a policy bears to the total premium receivable under that policy.
+Deferred Tax Assets Current,def_tax_assets_current,Yes,Financials,Balance Sheet,"FY, Q",Q,An asset creating by a difference between accounting for income tax purposes and financial reporting purposes
+Deferred Tax Assets Long-Term,def_tax_assets_lt_bnk,Yes,Bank,Balance Sheet,"FY, Q",Q,"This item represents the deferred tax consequences of temporary differences (reversible differences between financial and tax reporting bases of assets) that will result into net tax deductions or carry forwards in future years. All temporary differences related to non-current assets, and all temporary differences reversible in more than one-year's time are included under this item."
+"Deferred Tax Assets, Long-term",def_tax_assets_lt,Yes,Financials,Balance Sheet,"FY, Q",Q,A non-current asset created by a difference between accounting for income tax purposes and financial reporting purposes.
+Deferred Tax Liability Non-Current,def_tax_liab_lt_bnk,Yes,Bank,Balance Sheet,"FY, Q",Q,This item represents an increase in taxes payable in future years that results from income that has already been earned for accounting purposes but not for tax purposes.
+"Deferred Tax Liability, Current",def_tax_liab_current,Yes,Financials,Balance Sheet,"FY, Q",Q,A liability created by a difference between accounting for income tax purposes and financial reporting purposes.
+"Deferred Tax Liability, Long-term",def_tax_liab_lt,Yes,Financials,Balance Sheet,"FY, Q",Q,A liability created by a difference between accounting for income tax purposes and financial reporting purposes.
+Deposits at Interest in Securities,deposits_interest_securities,Yes,Bank,Balance Sheet,"FY, Q",Q,This item represents the Deposits made by the bank to earn interest but are not made part of cash and cash equivalents. This item includes interest-bearing deposits made part of Investments and excludes Restricted cash and interest-bearing deposits made part of cash and cash equivalents by the company.
+Depreciation & Amortization,da,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,The sum of depreciation and amortization expenses.
+Depreciation & Amortization,da_ins,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,The sum of depreciation and amortization expenses for insurance companies.
+Depreciation & Amortization (IS),da_is,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,The sum of Depreciation and Amortization reported on the income statement for a given period.
+Depreciation & Amortization Growth,da_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in depreciation & amortization.
+Depreciation & Amortization Margin,da_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Depreciation and amortization as a percent of revenue.
+"Depreciation & Amortization, Total",da_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item represents non-cash periodical charge on account of wear and tear of fixed assets used in the business. This item also includes amortization of all intangible assets and goodwill.
+Note: If the line reported in cash flow by the company is ""Depreciation, amortization and other non-cash charges"", we exclude from this all amortizations towards deferred charges, stock based-compensation, impairment and other non-cash charges included in it."
+Derivative Trading Asset Securities,derivative_trading_assets,Yes,Bank,Balance Sheet,"FY, Q",Q,"This item represents both debt and equity securities, which reflect active and frequent buying and selling by the company with an intention to generate profits from short-term price movements. The main motto of investment is profit generation and not long-term holding or capital appreciation."
+Description,description,No,Misc,Misc,,,A brief description of a company or stock.
+Diluted EPS (Cont. Ops),eps_diluted_cont,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Company's net earnings or losses from continuing operations on a per diluted share basis.
+Diluted EPS (Cont. Ops) CAGR (10y),eps_diluted_cont_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in diluted eps (cont. ops).
+Diluted EPS (Cont. Ops) CAGR (15y),eps_diluted_cont_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in diluted eps (cont. ops).
+Diluted EPS (Cont. Ops) CAGR (20y),eps_diluted_cont_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in diluted eps (cont. ops).
+Diluted EPS (Cont. Ops) CAGR (3y),eps_diluted_cont_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in dil. eps (cont. ops).
+Diluted EPS (Cont. Ops) CAGR (5y),eps_diluted_cont_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in dil. eps (cont. ops).
+Diluted EPS (Cont. Ops) CAGR (7y),eps_diluted_cont_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in dil. eps (cont. ops).
+Diluted EPS (Cont. Ops) Growth,eps_diluted_cont_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in dil. eps (cont. ops).
+Diluted EPS CAGR (10y),eps_diluted_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in diluted eps.
+Diluted EPS CAGR (15y),eps_diluted_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in diluted eps.
+Diluted EPS CAGR (20y),eps_diluted_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in diluted eps.
+Diluted EPS CAGR (3y),eps_diluted_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in dil. eps.
+Diluted EPS CAGR (5y),eps_diluted_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in dil. eps.
+Diluted EPS CAGR (7y),eps_diluted_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in dil. eps.
+Diluted EPS Growth,eps_diluted_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in dil. eps.
+Diluted EPS Incl Extra Items,eps_diluted,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Company's net earnings or losses from continuing operations adjusted for certain one-time items on a per diluted share basis.
+"Diluted EPS, Adjusted",eps_diluted_adj,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents Diluted EPS excluding unusual items.
+Dividend Adjustment Factor,div_adj_factor,Yes,Dividends,Computed,D,D,This item allows you to adjust the stock price return over a period of time to include income from dividends paid by the company.
+Dividend CAGR (10y),div_share_cagr_10y,Yes,Dividends,Valuation,,,Ten-year compound annual growth rate in dividend.
+Dividend CAGR (15y),div_share_cagr_15y,Yes,Dividends,Valuation,,,Fifteen-year compound annual growth rate in dividend.
+Dividend CAGR (20y),div_share_cagr_20y,Yes,Dividends,Valuation,,,Twenty-year compound annual growth rate in dividend.
+Dividend CAGR (3y),div_share_cagr_3y,Yes,Dividends,Computed,,,Three-year compound annual growth rate in dividend per share.
+Dividend CAGR (5y),div_share_cagr_5y,Yes,Dividends,Computed,,,Five-year compound annual growth rate in dividend per share.
+Dividend CAGR (7y),div_share_cagr_7y,Yes,Dividends,Computed,,,Seven-year compound annual growth rate in dividend per share.
+Dividend Coverage Ratio,dividend_coverage,Yes,Dividends,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the cash cushion available to management to maintain the firm's dividend to common shareholders.
+Dividend Currency,div_currency,No,Dividends,Misc,D,D,The currency in which a company declares a dividend.
+Dividend Frequency,div_frequency,No,Dividends,Misc,D,D,The frequency with which a company typically pays dividends.
+Dividend Growth,div_share_growth,Yes,Dividends,Computed,"FY, LTM",LTM,The growth rate in dividends per share.
+Dividend Per Share,div_share,No,Dividends,Computed,D,D,"The dividend paid to shareholders for each share of stock. For quarterly dividend payers, it's common practice to multiply the most recent dividend by 4 to calculate dividend per share."
+Dividend Yield,dividend_yield,No,Dividends,Computed,"FY, LTM",LTM,Measures the cash returned to shareholders by a firm as a percentage of the price they pay for each share of stock.
+Dividends Per Share Forecast,div_share_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Projected dividends per share.
+Dividends Per Share Forecast Consensus Standard Deviation,div_share_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted Dividends Per Share.
+Dividends Per Share Forecast Count of Estimates,div_share_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a Dividends Per Share Forecast for the stock.
+Dividends Per Share Forecast High Consensus,div_share_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest Dividends Per Share Forecast submitted by any analyst for the company.
+Dividends Per Share Forecast Low Consensus,div_share_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest Dividends Per Share Forecast submitted by any analyst for the company.
+Dividends Per Share Forecast Mean Consensus,div_share_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average Dividends Per Share Forecast submitted by any analyst for the company.
+Dividends Per Share Forecast Median Consensus,div_share_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median Dividends Per Share Forecast submitted by any analyst for the company.
+Downside (Analyst Target),analyst_target_downside,Yes,Valuation,Computed,"FY, Q, LTM",LTM,The percentage decrease (if positive) or increase (if negative) that professional analysts expect over the current stock price.
+Earnings of Discontinued Ops.,discont_oper,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents the total of income (loss), net of tax, from operations of the discontinued division. It includes the gain (loss) on the sale of the division."
+Earnings Yield,earnings_yield_ltm,No,Valuation,Computed,"FY, LTM",LTM,The inverse of the price-to-earnings ratio for the latest twelve months.
+EBIT,ebit,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Income before interest and taxes adjusted for certain one-time items.
+EBIT CAGR (10y),ebit_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in ebit.
+EBIT CAGR (15y),ebit_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in ebit.
+EBIT CAGR (20y),ebit_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in ebit.
+EBIT CAGR (3y),ebit_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in EBIT.
+EBIT CAGR (5y),ebit_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in EBIT.
+EBIT CAGR (7y),ebit_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in EBIT.
+EBIT Forecast,ebit_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Forecasted earnings before interest and taxes (EBIT).
+EBIT Forecast CAGR (10y),ebit_proj_cagr_10y,Yes,Forecast,Computed,,,Ten year compound annual growth rate in forecasted earnings before interest and taxes (EBIT).
+EBIT Forecast CAGR (5y),ebit_proj_cagr_5y,Yes,Forecast,Computed,,,Five year compound annual growth rate in forecasted earnings before interest and taxes (EBIT).
+EBIT Forecast Consensus Standard Deviation,ebit_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted EBIT.
+EBIT Forecast Count of Estimates,ebit_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a EBIT Forecast for the stock.
+EBIT Forecast High Consensus,ebit_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest EBIT Forecast submitted by any analyst for the company.
+EBIT Forecast Low Consensus,ebit_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest EBIT Forecast submitted by any analyst for the company.
+EBIT Forecast Mean Consensus,ebit_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average EBIT Forecast submitted by any analyst for the company.
+EBIT Forecast Median Consensus,ebit_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median EBIT Forecast submitted by any analyst for the company.
+EBIT Growth,ebit_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in EBIT.
+EBIT Growth Forecast,ebit_proj_growth,Yes,Forecast,Computed,"FY, Q",FY+1,Period over prior period growth in forecasted earnings before interest and taxes (EBIT).
+EBIT Margin,ebit_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Earnings before interest and taxes (EBIT) expressed as a percent of revenue.
+EBIT Margin CAGR (10y),ebit_margin_cagr_10y,Yes,Efficiency,Computed,,,Ten-year compound annual growth rate in EBIT margin.
+EBIT Margin CAGR (15y),ebit_margin_cagr_15y,Yes,Efficiency,Computed,,,Fifteen-year compound annual growth rate in EBIT margin.
+EBIT Margin CAGR (20y),ebit_margin_cagr_20y,Yes,Efficiency,Computed,,,Twenty-year compound annual growth rate in EBIT margin.
+EBIT Margin CAGR (3y),ebit_margin_cagr_3y,Yes,Efficiency,Computed,,,Three-year compound annual growth rate in EBIT margin.
+EBIT Margin CAGR (5y),ebit_margin_cagr_5y,Yes,Efficiency,Computed,,,Five-year compound annual growth rate in EBIT margin.
+EBIT Margin CAGR (7y),ebit_margin_cagr_7y,Yes,Efficiency,Computed,,,Seven-year compound annual growth rate in EBIT margin.
+EBIT Margin Forecast,ebit_proj_margin,Yes,Forecast,Computed,"FY, Q",FY+1,Forecasted earnings before interest and taxes (EBIT) as a percent of forecasted revenue.
+EBITA,ebita,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Earnings before interest, taxes and amortization (EBITA) adjusted for certain one-time items."
+EBITA Margin,ebita_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,"Earnings before interest, taxes and amortization (EBITA) expressed as a percent of revenue."
+EBITDA,ebitda,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Income before interest, taxes, depreciation and amortization adjusted for certain one-time items."
+EBITDA - 3Yr Avg CapEx,ebitda_less_3y_avg_capex,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,"Earnings before interest, taxes, depreciation and amortization (EBITDA) minus three year average capital expenditures."
+EBITDA - CAPEX,ebitda_less_capex,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,"Earnings before interest, taxes, depreciation and amortization (EBITDA) minus capital expenditures."
+EBITDA CAGR (10y),ebitda_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in ebitda.
+EBITDA CAGR (15y),ebitda_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in ebitda.
+EBITDA CAGR (20y),ebitda_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in ebitda.
+EBITDA CAGR (3y),ebitda_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in EBITDA.
+EBITDA CAGR (5y),ebitda_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in EBITDA.
+EBITDA CAGR (7y),ebitda_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in EBITDA.
+EBITDA Forecast,ebitda_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,"Forecasted earnings before interest, taxes, depreciation and amortization (EBITDA)."
+EBITDA Forecast CAGR (10y),ebitda_proj_cagr_10y,Yes,Forecast,Computed,,,"Ten year compound annual growth rate in forecasted earnings before interest, taxes, depreciation and amortization (EBITDA)."
+EBITDA Forecast CAGR (5y),ebitda_proj_cagr_5y,Yes,Forecast,Computed,,,"Five year compound annual growth rate in forecasted earnings before interest, taxes, depreciation and amortization (EBITDA)."
+EBITDA Forecast Consensus Standard Deviation,ebitda_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted EBITDA.
+EBITDA Forecast Count of Estimates,ebitda_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a EBITDA Forecast for the stock.
+EBITDA Forecast High Consensus,ebitda_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest EBITDA Forecast submitted by any analyst for the company.
+EBITDA Forecast Low Consensus,ebitda_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest EBITDA Forecast submitted by any analyst for the company.
+EBITDA Forecast Mean Consensus,ebitda_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average EBITDA Forecast submitted by any analyst for the company.
+EBITDA Forecast Median Consensus,ebitda_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median EBITDA Forecast submitted by any analyst for the company.
+EBITDA Growth,ebitda_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in EBITDA.
+EBITDA Growth Forecast,ebitda_proj_growth,Yes,Forecast,Computed,"FY, Q",FY+1,"Period over prior period growth in forecasted earnings before interest, taxes, depreciation and amortization (EBITDA)."
+EBITDA Interest Coverage Ratio,interest_coverage_ebitda,Yes,Risk,Computed,"FY, Q, LTM, YTD",LTM,A ratio used to assess a firm's ability to pay interest expenses based on EBITDA.
+EBITDA less CapEx Interest Coverage Ratio,interest_coverage_ebitda_capex,Yes,Risk,Computed,"FY, Q, LTM, YTD",LTM,A ratio used to assess a firm's ability to pay interest expenses based on EBITDA less Capital Expenditures.
+EBITDA Margin,ebitda_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,"Earnings before interest, taxes, depreciation and amortization (EBITDA) expressed as a percent of revenue."
+EBITDA Margin CAGR (10y),ebitda_margin_cagr_10y,Yes,Efficiency,Computed,,,Ten-year compound annual growth rate in EBITDA margin.
+EBITDA Margin CAGR (15y),ebitda_margin_cagr_15y,Yes,Efficiency,Computed,,,Fifteen-year compound annual growth rate in EBITDA margin.
+EBITDA Margin CAGR (20y),ebitda_margin_cagr_20y,Yes,Efficiency,Computed,,,Twenty-year compound annual growth rate in EBITDA margin.
+EBITDA Margin CAGR (3y),ebitda_margin_cagr_3y,Yes,Efficiency,Computed,,,Three-year compound annual growth rate in EBITDA margin.
+EBITDA Margin CAGR (5y),ebitda_margin_cagr_5y,Yes,Efficiency,Computed,,,Five-year compound annual growth rate in EBITDA margin.
+EBITDA Margin CAGR (7y),ebitda_margin_cagr_7y,Yes,Efficiency,Computed,,,Seven-year compound annual growth rate in EBITDA margin.
+EBITDA Margin Forecast,ebitda_proj_margin,Yes,Forecast,Computed,"FY, Q",FY+1,"Forecasted earnings before interest, taxes, depreciation and amortization (EBITDA) as a percent of forecasted revenue."
+EBITDA minus 3Yr Avg CapEx Margin,ebitda_less_3y_avg_capex_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,"Earnings before interest, taxes, depreciation and amortization (EBITDA) minus three year average capital expenditures expressed as a percent of revenue."
+EBITDA minus CAPEX Margin,ebitda_less_capex_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,"Earnings before interest, taxes, depreciation and amortization (EBITDA) minus capital expenditures expressed as a percent of revenue."
+EBITDAR,ebitdar,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Earnings before interest, taxes, depreciation, amortization, and rent costs (EBITDAR) adjusted for certain one-time items."
+EBT Excl. Unusual Items,ebt_excl,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents EBT Before Non Recurring Items and is arrived at after adjusting, the following, to Operating Profit (OPIN): 1. Interest Expense, Total and 2. Total Non Operating Income/(Expenses) (NOIET)."
+EBT Excl. Unusual Items,ebt_excl_bnk,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+"EBT, Incl. Unusual Items",ebt,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Company's earnings or loss before taxes on income have been accounted for.
+"EBT, Incl. Unusual Items CAGR (10y)",ebt_cagr_10y,Yes,Financials,Computed,,,"Ten-year compound annual growth rate in ebt, incl. unusual items."
+"EBT, Incl. Unusual Items CAGR (15y)",ebt_cagr_15y,Yes,Financials,Computed,,,"Fifteen-year compound annual growth rate in ebt, incl. unusual items."
+"EBT, Incl. Unusual Items CAGR (20y)",ebt_cagr_20y,Yes,Financials,Computed,,,"Twenty-year compound annual growth rate in ebt, incl. unusual items."
+"EBT, Incl. Unusual Items CAGR (3y)",ebt_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in pre-tax income.
+"EBT, Incl. Unusual Items CAGR (5y)",ebt_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in pre-tax income.
+"EBT, Incl. Unusual Items CAGR (7y)",ebt_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in pre-tax income.
+"EBT, Incl. Unusual Items Growth",ebt_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in pre-tax income.
+Effective Interest Rate,interest_rate_effective,Yes,Efficiency,Computed,"FY, LTM",LTM,"In the context of a firm's debts, effective interest rate is calculated as Interest Expense divided by Total Debt."
+Effective Tax Rate,effect_tax_rate,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the GAAP tax rate applicable to the earnings after all expenses have been deducted by the business.
+Ending Cash (CF),cash_end,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents cash and cash equivalents as at the end of the period.
+Enterprise Value (EV),enterprise_value,Yes,Valuation,Computed,"FY, LTM",LTM,The sum of value available to debt and equity holders.
+Entity Type,entity_type,No,Misc,Misc,,,"The type of entity (company, etf, closed-end fund, etc.)"
+EPS Forecast,eps_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Forecasted earnings per share (EPS).
+EPS Forecast Consensus Standard Deviation,eps_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted EPS.
+EPS Forecast Count of Estimates,eps_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a EPS Forecast for the stock.
+EPS Forecast High Consensus,eps_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest EPS Forecast submitted by any analyst for the company.
+EPS Forecast Low Consensus,eps_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest EPS Forecast submitted by any analyst for the company.
+EPS Forecast Mean Consensus,eps_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average EPS Forecast submitted by any analyst for the company.
+EPS Forecast Median Consensus,eps_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median EPS Forecast submitted by any analyst for the company.
+EPS Growth Forecast,eps_proj_growth,Yes,Forecast,Computed,"FY, Q",FY+1,Period over prior period growth in forecasted earnings per share (EPS).
+"EPS, Adjusted w/ Current Shares Out",eps_adj,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents Diluted EPS excluding unusual items. Note, this calculation uses the latest current shares outstanding."
+EPV Adjusted Earnings,epv_adj_earnings,Yes,Financials,Computed,"FY, LTM",LTM,"A measure of free cash flow made famous by Columbia University Professor Bruce Greenwald. Adjusted earnings is calculated by estimating a ""sustainable"" level of revenues and profits based on historical trends."
+Equity Method Investments,equity_method,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents all those non-current investments held by the company, which are accounted for by the equity method of accounting."
+EV / EBIT,ev_to_ebit_ltm,No,Valuation,Computed,"FY, LTM, Q",LTM,Measures the dollars in Enterprise Value for each dollar of EBIT over the last twelve months.
+EV / EBITDA,ev_to_ebitda_ltm,No,Valuation,Computed,"FY, LTM",LTM,Measures the dollars in Enterprise Value for each dollar of EBITDA over the last twelve months.
+EV / Free Cash Flow,ev_to_fcf_ltm,Yes,Valuation,Computed,"FY, LTM",LTM,Measures the dollars in Enterprise Value for each dollar of free cash flow over the last twelve months.
+EV / Fwd EBIT,ev_to_ebit_fwd,No,Valuation,Computed,FY,FY+1,Measures the dollars in Enterprise Value for each dollar of EBIT projected to be earned over the next twelve months.
+EV / Fwd EBITDA,ev_to_ebitda_fwd,No,Valuation,Computed,FY,FY+1,Measures the dollars in Enterprise Value for each dollar of EBITDA projected to be earned over the next twelve months.
+EV / Fwd EBITDA - CAPEX,ev_to_ebitda_capex_fwd,Yes,Valuation,Computed,FY,FY+1,Measures the dollars in Enterprise Value for each dollar of EBITDA minus Capital Expenditures projected to be earned over the next twelve months.
+EV / Fwd Revenue,ev_to_revenue_fwd,No,Valuation,Computed,FY,FY+1,Measures the dollars in Enterprise Value for each dollar of revenue projected to be earned over the next twelve months.
+EV / Invested Capital,ev_to_ic_ltm,Yes,Valuation,Computed,"FY, LTM",LTM,Measures the dollars in Enterprise Value for each dollar of Invested Capital (Equity + Debt) over the last twelve months.
+EV / LTM EBITDA - CAPEX,ev_to_ebitda_capex_ltm,Yes,Valuation,Computed,"FY, LTM",LTM,Measures the dollars in Enterprise Value for each dollar of EBITDA minus Capital Expenditures over the last twelve months.
+EV / Revenue,ev_to_revenue_ltm,No,Valuation,Computed,"FY, LTM",LTM,Measures the dollars in Enterprise Value for each dollar of revenue over the last twelve months.
+Ex-Date of Last Dividend,last_div_ex_date,Yes,Dividends,Computed,D,D,Ex-dividend date is usually two business days before the dividend record date. Shares purchased on or after the ex-dividend date are not eligible to receive the next dividend payment.
+Extraordinary Item & Account Change,extra_acc_items,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents the extraordinary income (loss) and also includes the cumulative effect of change in the accounting policies of the company, reported by the company after net income from continuing and discontinued operations."
+Extraordinary Item & Account Change,extra_acc_items_bnk,Yes,Bank,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,
+Extraordinary Items,extra_items,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents an unusual one-time gain or loss on the income statement. As per US GAAP, companies require that Extraordinary Items must be separately disclosed in the income statement, net of any related tax effects, after discontinued operations and before the cumulative effect of changes in accounting principle. Extraordinary Items as per U.S. GAAP has a different meaning than that of the dictionary meaning. Generally 'Gain/Loss on early retirement/extinguishment of debt' are reported as Extraordinary Items by U.S. companies."
+Fair Value (Analyst Target),analyst_target,Yes,Valuation,Computed,D,D,The average of analyst price targets for a stock. Price targets represent what analysts believe a stock will be worth within the next 12 to 18 months.
+Fair Value (Finbox),fair_value,Yes,Valuation,Computed,,,Represents the fair value estimated using Finbox's valuation models.
+Fair Value Confidence (Finbox),fair_value_confidence,Yes,Valuation,Computed,,,Represents the uncertainty rating Finbox has assigned to Finbox's Fair Value estimate.
+Fair Value Downside (Finbox),fair_value_downside,Yes,Valuation,Computed,,,The percentage decrease (if positive) or increase (if negative) that Finbox models estimate over the current stock price.
+Fair Value Uncertainty (Finbox Fair Value),fair_value_uncertainty,Yes,Valuation,Computed,,,Represents the uncertainty rating Finbox has assigned to Finbox's Fair Value estimate.
+Fair Value Upside (Finbox Estimate),fair_value_upside,Yes,Valuation,Computed,,,The percentage increase (if positive) or decrease (if negative) that Finbox models estimate over the current stock price.
+FCF / OCF,fcf_to_ocf,Yes,Risk,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the amount of free cash flows (FCF) for each dollar of operating cash flows (OCF).
+FFO / Share Forecast Consensus Standard Deviation,ffo_share_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted FFO / Share.
+FFO / Share Forecast Count of Estimates,ffo_share_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a FFO / Share Forecast for the stock.
+FFO / Share Forecast High Consensus,ffo_share_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest FFO / Share Forecast submitted by any analyst for the company.
+FFO / Share Forecast Low Consensus,ffo_share_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest FFO / Share Forecast submitted by any analyst for the company.
+FFO / Share Forecast Mean Consensus,ffo_share_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average FFO / Share Forecast submitted by any analyst for the company.
+FFO / Share Forecast Median Consensus,ffo_share_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median FFO / Share Forecast submitted by any analyst for the company.
+FFO Forecast,ffo_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Forecasted funds from operations (FFO).
+FFO Forecast CAGR (10y),ffo_proj_cagr_10y,Yes,Forecast,Estimated,,,Ten year compound annual growth rate in forecasted funds from operations.
+FFO Forecast CAGR (5y),ffo_proj_cagr_5y,Yes,Forecast,Estimated,,,Five year compound annual growth rate in forecasted funds from operations.
+FFO Forecast Consensus Standard Deviation,ffo_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted FFO.
+FFO Forecast Count of Estimates,ffo_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a FFO Forecast for the stock.
+FFO Forecast High Consensus,ffo_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest FFO Forecast submitted by any analyst for the company.
+FFO Forecast Low Consensus,ffo_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest FFO Forecast submitted by any analyst for the company.
+FFO Forecast Mean Consensus,ffo_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average FFO Forecast submitted by any analyst for the company.
+FFO Forecast Median Consensus,ffo_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median FFO Forecast submitted by any analyst for the company.
+FFO Growth Forecast,ffo_proj_growth,Yes,Forecast,Estimated,"FY, Q",FY+1,Period over prior period growth in forecasted net working capital (NWC).
+FFO Margin Forecast,ffo_proj_margin,Yes,Forecast,Estimated,"FY, Q",FY+1,Forecasted funds from operations as a percent of forecasted revenue.
+"Finance Division Debt, Current",fin_div_debt_current,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents those amounts pertaining to the finance division of an Industrial template company, which are in the nature of debt and are currently payable within one year or within the operating cycle of the business, usually with interest."
+"Finance Division Debt, Long-Term",fin_div_debt_lt,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents those amounts pertaining to the finance division of an Industrial template company, which are to be repaid in full, usually with interest, that are not currently payable within one year or within the operating cycle of the business."
+Financial Leverage,financial_leverage,Yes,Risk,Computed,"FY, Q",Q,A ratio that measures the dollars in total assets for each dollar of common equity.
+First Trade Date (Trading Item),first_trade_date,No,Misc,Misc,,,The date the subject security started trading on an exchange
+Fixed Asset Turnover,fixed_asset_turnover,Yes,Efficiency,Computed,"FY, LTM",LTM,An efficiency ratio that is calculated by dividing revenue by average fixed assets.
+Float Shares / Outstanding,shares_float_pct,No,Valuation,Computed,,,The percentage of outstanding shares that are available for trading.
+Forecast Currency,forecast_currency,No,Misc,Misc,,,The currency in which a company's analysts forecast data for the company.
+Foreign Exchange Rate,fx_rate,No,Valuation,Misc,D,D,The foreign exchange rate between two currencies.
+Foreign Exchange Rate Adjustments,fx,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The change in cash arising from fluctuating foreign exchange rates.
+Free Cash Flow Payout Ratio,fcf_payout_ratio,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,A ratio that is calculated as total dividends paid divided by levered free cash flow.
+Free Cash Flow Yield,fcf_yield_ltm,No,Valuation,Computed,"FY, LTM",LTM,Measures amount of free cash flow for each dollar of equity (market capitalization).
+Full Ticker,full_ticker,No,Misc,Misc,,,The fully qualified ticker in EXCHANGE:SYMBOL format
+Full Time Employees,employees,No,Misc,Misc,"FY, Q",FY,The number of full time employees that the company employs. This metric is only available when the data is reported in company filings.
+Fund Asset Class,fund_asset_class,No,ETF,Misc,,,The asset class a fund is primarily focused on.
+Fund Asset Focus,fund_asset_focus,No,ETF,Misc,,,The primary focus within a category the fund is targeting.
+Fund Assets Under Management,fund_aum,No,ETF,Misc,,,The market value of total investor assets that a fund has under management.
+Fund Benchmark Index,fund_benchmark_index,No,ETF,Misc,,,The index the fund benchmarks performance against.
+Fund Brand,fund_brand,No,ETF,Misc,,,The name of the public brand of the issuer.
+Fund Category,fund_category,No,ETF,Misc,,,The category within an asset class the fund is targeting.
+Fund Credit Duration,fund_credit_duration,No,ETF,Misc,,,The credit duration of the fund's holdings.
+Fund Credit Quality,fund_credit_quality,No,ETF,Misc,,,The credit quality of the fund's holdings.
+Fund Credit Yield To Maturity,fund_credit_ytm,No,ETF,Misc,,,The yield to maturity of the fund's holdings.
+Fund Economic Focus,fund_economic_focus,No,ETF,Misc,,,The economic region a fund is primarily focused on.
+Fund Expense Ratio,fund_expense_ratio,No,ETF,Misc,,,Expense ratio of fund or security
+Fund Geography,fund_geography,No,ETF,Misc,,,The geography a fund is targeting.
+Fund Is Actively Managed,fund_is_actively_managed,No,ETF,Misc,,,Is the fund actively managed?
+Fund Is ETN,fund_is_etn,No,ETF,Misc,,,Is the fund an Exchange Traded Note (ETN)?
+Fund Is Inverse,fund_is_inverse,No,ETF,Misc,,,Is the fund's performance inverse of the target asset class or category?
+Fund Is Leveraged,fund_is_leveraged,No,ETF,Misc,,,Does the fund use additional leverage?
+Fund Issuer,fund_issuer,No,ETF,Misc,,,Issuer of fund.
+Fund Launch Date,fund_launch_date,No,ETF,Misc,,,Date of launch for a fund.
+Fund Legal Org Type,fund_legal_org_type,No,ETF,Misc,,,The legal organizational structure of the fund.
+Fund Leverage Factor,fund_leverage_factor,No,ETF,Misc,,,Leverage factor of fund.
+Fund Niche,fund_niche,No,ETF,Misc,,,The primary niche the fund is targeting.
+Fund Selection Criteria,fund_selection_criteria,No,ETF,Misc,,,The criteria used by the fund to select which assets to hold.
+Fund Spread Percent,fund_spread_pct,No,ETF,Misc,,,A fund's trading spread (measures liquidity)
+Fund Strategy,fund_strategy,No,ETF,Misc,,,The fund's strategy.
+Fund Tax Max Long Term Cap Gains Rate,fund_tax_max_lt_cap_gains_rate,No,ETF,Misc,,,The maximum tax rate applicable of long term gains of the fund.
+Fund Tax Max Short Term Cap Gains Rate,fund_tax_max_st_cap_gains_rate,No,ETF,Misc,,,The maximum tax rate applicable of short term gains of the fund.
+Fund Tax Reporting,fund_tax_reporting,No,ETF,Misc,,,Tax reporting form filed to notify the IRS of investment in the fund.
+Fund Weighting Scheme,fund_weighting_scheme,No,ETF,Misc,,,The weighting scheme used by the fund to select which assets to hold.
+Funds From Operations,ffo,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,"A measure typically used to evaluate REITs calculated by adding depreciation and amortization to earnings, subtracting any gains on sales."
+Funds From Operations Growth,ffo_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in funds from operations (FFO).
+Funds From Operations Margin,ffo_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Adjusted funds from operations (AFFO) expressed as a percent of revenue.
+Fwd Earnings Yield,earnings_yield_fwd,Yes,Valuation,Computed,FY,FY+1,The inverse of the forward price-to-earnings ratio.
+Fwd EBIT Yield,ebit_yield_fwd,Yes,Valuation,Computed,,,"Compares the earnings before interest and taxes (EBIT) to the market's valuation of the entire business, including debt and equity."
+Gain (Loss) On Sale Of Assets,gain_assets,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents any gain or loss on sale/disposition of tangible and
+intangible fixed assets, subsidiaries, division, segment, product line,
+business, operations etc and is of non-recurring in nature."
+Gain (Loss) on Sale of Assets,gain_assets_reit,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents any gain or loss on sale of fixed or intangible assets and is of non-recurring nature.
+Gain (Loss) on Sale of Assets (Rev),gain_assets_rev_bnk,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+Gain (Loss) On Sale Of Invest.,gain_invest,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents any realized or unrealized gain (loss) on sale of
+marketable securities or investments in joint ventures, affiliates,
+partnerships, unconsolidated subsidiaries."
+"Gain (Loss) on Sale of Invest., Total",gain_invest_rev_ins,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,
+Gain on Sale of Invest. & Secur. (Rev),gain_invest_rev_bnk,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+General & Admin Expenses,general_admin,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the general and administrative costs incurred by the company.
+Goodwill,gw,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the excess of purchase price paid over the fair market value of net assets acquired, net of any write downs for impairment in value. Goodwill is now no longer amortized over an estimated useful life as was being done earlier (prior to SFAS 142). Instead the balance of goodwill has to be assessed at every reporting period and a write down for impairment has to be recognized when determined. The assessment for impairment is done by applying a fair value based test."
+Goodwill & Intangibles,goodwill_intangibles,Yes,Financials,Balance Sheet,"FY, Q",Q,The sum of all intangible asset fields
+Gross Loans,gross_loans,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Gross Profit,gp,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Revenues from operations less the associated costs.
+Gross Profit CAGR (10y),gp_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in gross profit.
+Gross Profit CAGR (15y),gp_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in gross profit.
+Gross Profit CAGR (20y),gp_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in gross profit.
+Gross Profit CAGR (3y),gp_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in gross profit.
+Gross Profit CAGR (5y),gp_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in gross profit.
+Gross Profit CAGR (7y),gp_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in gross profit.
+Gross Profit Growth,gp_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in gross profit.
+Gross Profit Margin,gp_margin,No,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Gross profit expressed as a percent of revenue.
+Gross Profit Margin CAGR (10y),gp_margin_cagr_10y,Yes,Efficiency,Computed,,,Ten-year compound annual growth rate in gross profit margin.
+Gross Profit Margin CAGR (15y),gp_margin_cagr_15y,Yes,Efficiency,Computed,,,Fifteen-year compound annual growth rate in gross profit margin.
+Gross Profit Margin CAGR (20y),gp_margin_cagr_20y,Yes,Efficiency,Computed,,,Twenty-year compound annual growth rate in gross profit margin.
+Gross Profit Margin CAGR (3y),gp_margin_cagr_3y,Yes,Efficiency,Computed,,,Three-year compound annual growth rate in gross profit margin.
+Gross Profit Margin CAGR (5y),gp_margin_cagr_5y,Yes,Efficiency,Computed,,,Five-year compound annual growth rate in gross profit margin.
+Gross Profit Margin CAGR (7y),gp_margin_cagr_7y,Yes,Efficiency,Computed,,,Seven-year compound annual growth rate in gross profit margin.
+Gross Property Plant And Equipment,gppe,Yes,Financials,Balance Sheet,"FY, Q",Q,"The sum of all gross property, plant & equipment fields. Where companies do not report a breakdown of plant, property, & equipment, the value is entered in this field alone."
+Impairment of Goodwill,impairment_gw,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,A charge off occurring when the carrying value of goodwill is less than its market value. When this happens the goodwill is written off so that its carrying value matches up with its market value.
+Implied Shares Outstanding,shares_out_implied,No,Valuation,Misc,D,D,Implied shares outstanding of company's equity shares including partnership interests.
+Imputed Oper. Lease Depreciation,imput_oper_lease_depr,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,
+In Process R&D Expenses,iprd,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents when a company acquired other company’s assets and liabilities along with its in process R&D and if that In process R&D is of no use to Acquired Company, it will be written off."
+Income on Real Estate Property (Rev),inc_real_estate_rev,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+Income Statement Restatement Type,restatement_is,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,
+Income Tax Expense,inc_tax,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,The total amount of income tax expense for the given period.
+Income Tax Expense CAGR (10y),inc_tax_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in income tax expense.
+Income Tax Expense CAGR (15y),inc_tax_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in income tax expense.
+Income Tax Expense CAGR (20y),inc_tax_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in income tax expense.
+Income Tax Expense CAGR (3y),inc_tax_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in provision for taxes.
+Income Tax Expense CAGR (5y),inc_tax_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in provision for taxes.
+Income Tax Expense CAGR (7y),inc_tax_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in provision for taxes.
+Income Tax Expense Margin,inc_tax_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the GAAP taxes applicable to the earnings after all expenses have been deducted by the business as a percent of revenue.
+Income Tax Growth,inc_tax_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in provision for taxes.
+Index Membership,indexes,Yes,Misc,Misc,,,The indices that use a stock as part of its price calculation.
+Industry (GICS),industry,No,Misc,Misc,,,The industry in which a company operates.
+Industry Group (GICS),industry_group,No,Misc,Misc,,,The industry group in which a company operates.
+Institutional Deposits,inst_deposits,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Insurance and Annuity Liabilities,ins_annuity_liab,Yes,Insurance,Balance Sheet,"FY, Q",Q,
+Insurance Settlements,ins_settle,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents Proceeds from insurance claims received by a company from its insurance carrier.
+Interest And Invest. Income (Rev),int_inv_inc,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Interest income from loans made, or income related to investments made, as a normal part of daily operations."
+Interest And Investment Income,interest_invest_inc,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the interest and investment income derived from investments made out of surplus funds.
+Interest Capitalized,capitalized_interest,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Interest expense that has been capitalized as an asset and is amortized over a defined period.
+Interest Coverage Ratio,interest_coverage,Yes,Risk,Computed,"FY, Q, LTM, YTD",LTM,A ratio used to assess a firm's ability to pay interest expenses based on operating profits (EBIT).
+Interest Expense Margin,interest_exp_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Interest expense expressed as a percent of revenue.
+"Interest Expense, Total",interest_exp,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,The costs incurred from non-operating borrowings for the given period.
+"Interest Expense, Total (Bank)",int_exp_total,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,Interest paid on loans that are deemed to be necessary as a normal part of daily operations.
+"Interest Expense, Total (Insurance)",int_exp_ins,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,
+"Interest Expense, Total CAGR (10y)",interest_exp_cagr_10y,Yes,Financials,Computed,,,"Ten-year compound annual growth rate in interest expense, total."
+"Interest Expense, Total CAGR (15y)",interest_exp_cagr_15y,Yes,Financials,Computed,,,"Fifteen-year compound annual growth rate in interest expense, total."
+"Interest Expense, Total CAGR (20y)",interest_exp_cagr_20y,Yes,Financials,Computed,,,"Twenty-year compound annual growth rate in interest expense, total."
+"Interest Expense, Total CAGR (3y)",interest_exp_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in interest expense.
+"Interest Expense, Total CAGR (5y)",interest_exp_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in interest expense.
+"Interest Expense, Total CAGR (7y)",interest_exp_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in interest expense.
+"Interest Expense, Total Growth",interest_exp_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in interest expense.
+Interest Income on Investments,int_inc_invest,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+Interest Income on Loans,int_inc_loans,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+"Interest Income, Total",int_inc_total,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+Interest on Deposits,int_deposits,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+Interest on Long-Term Debt,int_exp_ltd,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents gross amount of interest on long-term debt.
+Inventory,inventory,Yes,Financials,Balance Sheet,"FY, Q",Q,The total value of inventories in all stages of completion.
+Inventory Long-Term,long_term_inventory,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents the non-current inventories of the motion picture film industry comprising of certain capitalized costs incurred for the acquisition and production of entertainment properties.
+Inventory Method,inv_method,No,Misc,Misc,"FY, Q",Q,The inventory record keeping method used by the company (FIFO / LIFO).
+Inventory Turnover,inventory_turnover,Yes,Efficiency,Computed,"FY, LTM",LTM,A ratio that measures the number for times a company's inventory is sold and replaced over the year.
+Invest. In Equity and Pref. Securities,invest_equity_pref,Yes,Insurance,Balance Sheet,"FY, Q",Q,
+Invest. In Marketable & Equity Securities,invest_security_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item represents cash flows towards purchase or sale of all investments made by the company whether such investments are short-term or long-term, accounted under equity or cost method, available-for-sale or held-to-maturity."
+Investment in Debt Securities,invest_debt,Yes,Insurance,Balance Sheet,"FY, Q",Q,
+Investment in Government Securities,invest_gov_security,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Investment in Real Estate,invest_real_estate,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Investment in Securities,invest_security_suppl,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Investment Securities,invest_security,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Issuance of Common Stock,common_issuance,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The amount of cash received by the company from issuing company stock in the given period.
+Land,land,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the Assets of a durable nature in the form of Land held by the company, at their gross values, which are to be used in the production or sale of goods, sale of other goods or rendering of services rather than being held for sale."
+Last Period End Date,last_period_end_date,No,Misc,Misc,,,The most recent reporting period end date
+Last Reported Fiscal Period Key,last_fiscal_period,No,Misc,Misc,,,The most recent reporting period fiscal period in Finbox period format. Latest final key Example: FY${fiscal_year}.Q${fiscal_qtr}
+Last Reported Fiscal Quarter,last_fiscal_qtr,No,Misc,Misc,,,The most recent reporting period fiscal quarter
+Last Reported Fiscal Year,last_fiscal_year,No,Misc,Misc,,,The most recent reporting period fiscal year
+Legal Settlements,legal_settle,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Income or expenses associated with legal matters including settlements, patents and provisions for future legal costs."
+Levered Free Cash Flow,fcf_levered,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,The sum of Cash from Operations and Cash from Investing.
+Levered Free Cash Flow Growth,fcf_levered_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in levered free cash flow.
+Levered Free Cash Flow Margin,fcf_levered_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Levered free cash flow expressed as a percent of revenue.
+Loans & Advances to Clients,loans_advances_clients,Yes,Bank,Balance Sheet,"FY, Q",Q,Advances and deposits that offer benefits in the future.
+Loans Held For Sale,loans_for_sale,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Loans Payable Current Derivative Instruments,st_debt_derivatives,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Long Term Earnings Growth Rate,earnings_growth_lt,Yes,Forecast,Computed,,,Forecasted long term earnings growth rate.
+Long Term Growth Consensus Standard Deviation,earnings_growth_lt_stdev,Yes,Forecast,Estimated,,,Standard deviation in forecasted Long Term Growth %.
+Long Term Growth Count of Estimates,earnings_growth_lt_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a Long Term Growth % for the stock.
+Long Term Growth High Consensus,earnings_growth_lt_high_raw,Yes,Forecast,Estimated,,,The highest Long Term Growth % submitted by any analyst for the company.
+Long Term Growth Low Consensus,earnings_growth_lt_low_raw,Yes,Forecast,Estimated,,,The lowest Long Term Growth % submitted by any analyst for the company.
+Long Term Growth Mean Consensus,earnings_growth_lt_mean_raw,Yes,Forecast,Estimated,,,The mean or average Long Term Growth % submitted by any analyst for the company.
+Long Term Growth Median Consensus,earnings_growth_lt_median_raw,Yes,Forecast,Estimated,,,The median Long Term Growth % submitted by any analyst for the company.
+Long-Term Accounts Receivables,receivables_lt,Yes,Financials,Balance Sheet,"FY, Q",Q,"Notes, loans, accounts and other receivables expected in more than one year."
+Long-term Debt,lt_debt,Yes,Financials,Balance Sheet,"FY, Q",Q,The sum of all long term debt fields.
+Long-Term Debt Issued,lt_debt_issued,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents cash inflow on issuance of any debt that is long-term in nature.
+Long-Term Debt Repaid,lt_debt_repaid,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents cash outflows towards repayment of any debt that is long-term in nature.
+Long-term Investments,long_term_inv,Yes,Financials,Balance Sheet,"FY, Q",Q,The aggregate value of debt and or equity investments with maturities or benefits lasting more than one year.
+Long-term Operating Lease Liabilities,lt_port_op_lease,Yes,Financials,Balance Sheet,"FY, Q",Q,
+Loss (Income) On Equity Investments,inc_equity_cf,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Net losses or gains arising from the sale of equity investments, securities and/or derivative assets."
+LTM EBIT Yield,ebit_yield_ltm,Yes,Valuation,Computed,"FY, LTM",LTM,"Compares the earnings before interest and taxes (EBIT) to the market's valuation of the entire business, including debt and equity."
+Machinery,machinery,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the Assets of a durable nature held by the company, at their gross values, which are to be used in the production or sale of goods, sale of other goods or rendering of services rather than being held for sale. This is the residual item consisting of all the types of fixed assets not classifiable as either Land or Building."
+Marginal Tax Rate,marginal_tax_rate,Yes,Forecast,Estimated,,,Marginal tax rate used for financial modeling.
+Market Cap,marketcap,No,Valuation,Computed,D,D,Measures a public company's total equity value as implied by the stock's last observed trading price.
+Market Cap (Implied),marketcap_implied,Yes,Valuation,Computed,D,D,The implied market capitalization of the company including limited partner shares.
+Market Cap / Fwd Revenue,market_to_revenue_fwd,Yes,Valuation,Computed,FY,FY+1,Indicates the multiple of forward revenue that stock investors are willing to pay for one share of the firm.
+Market Cap / LTM AFFO,market_to_affo_ltm,Yes,Valuation,Computed,"FY, LTM",LTM,Indicates the multiple of adjusted funds from operations (AFFO) that stock investors are willing to pay for one share of the firm.
+Market Cap / LTM Revenue,market_to_revenue_ltm,No,Valuation,Computed,"FY, LTM",LTM,Indicates the multiple of revenue that stock investors are willing to pay for one share of the firm.
+Merger & Related Restructuring Charges,merger,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Expenses related to corporate actions including mergers, acquisitions and spin-offs."
+Merger & Restructuring Charges,merger_restructure,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the sum of one-time Merger and Restructuring charges incurred by the company.
+Minority Interest in Earnings,minority_interest_is,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,The reporting company's share of ownership in another company by including income or loss of the company as a portion of Net Income.
+Minority Interest in Earnings CAGR (10y),minority_interest_is_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in minority interest in earnings.
+Minority Interest in Earnings CAGR (15y),minority_interest_is_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in minority interest in earnings.
+Minority Interest in Earnings CAGR (20y),minority_interest_is_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in minority interest in earnings.
+Minority Interest in Earnings CAGR (3y),minority_interest_is_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in minority interest in earnings.
+Minority Interest in Earnings CAGR (5y),minority_interest_is_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in minority interest in earnings.
+Minority Interest in Earnings CAGR (7y),minority_interest_is_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in minority interest in earnings.
+Minority Interest in Earnings Growth,minority_interest_is_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in minority interest in earnings.
+Minority Interest in Earnings Margin,minority_interest_is_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Minority Interest in Earnings expressed as a percent of revenue.
+Mortgage Backed Securities,mort_security,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Mortgage Loans,mort_loans,Yes,Insurance,Balance Sheet,"FY, Q",Q,
+Name,name,No,Misc,Misc,,,The name of the company of stock.
+NAV / Share,nav_share_actual,Yes,Forecast,Computed,"FY, Q",FY,Net Asset Value per share as estimated by analysts.
+NAV / Share Forecast Consensus Standard Deviation,nav_share_proj_stdev,Yes,Forecast,Computed,"FY, Q",FY+1,The median NAV / share forecast submitted by any analyst for the company.
+NAV / Share Forecast Count of Estimates,nav_share_proj_count,Yes,Forecast,Computed,"FY, Q",FY+1,Standard deviation in forecasted NAV / share.
+NAV / Share Forecast High Consensus,nav_share_proj_high_raw,Yes,Forecast,Computed,"FY, Q",FY+1,The number of analysts publishing a NAV / share forecast for the stock.
+NAV / Share Forecast Low Consensus,nav_share_proj_low_raw,Yes,Forecast,Computed,"FY, Q",FY+1,The highest NAV / share forecast submitted by any analyst for the company.
+NAV / Share Forecast Mean Consensus,nav_share_proj_mean_raw,Yes,Forecast,Computed,"FY, Q",FY+1,The lowest NAV / share forecast submitted by any analyst for the company.
+NAV / Share Forecast Median Consensus,nav_share_proj_median_raw,Yes,Forecast,Computed,"FY, Q",FY+1,The mean or average NAV / share forecast submitted by any analyst for the company.
+NAV Forecast Consensus Standard Deviation,nav_proj_stdev,Yes,Forecast,Computed,"FY, Q",FY+1,The median Net Asset Value (NAV) forecast submitted by any analyst for the company.
+NAV Forecast Count of Estimates,nav_proj_count,Yes,Forecast,Computed,"FY, Q",FY+1,Standard deviation in forecasted Net Asset Value (NAV).
+NAV Forecast High Consensus,nav_proj_high_raw,Yes,Forecast,Computed,"FY, Q",FY+1,The number of analysts publishing a Net Asset Value (NAV) forecast for the stock.
+NAV Forecast Low Consensus,nav_proj_low_raw,Yes,Forecast,Computed,"FY, Q",FY+1,The highest Net Asset Value (NAV) forecast submitted by any analyst for the company.
+NAV Forecast Mean Consensus,nav_proj_mean_raw,Yes,Forecast,Computed,"FY, Q",FY+1,The lowest Net Asset Value (NAV) forecast submitted by any analyst for the company.
+NAV Forecast Median Consensus,nav_proj_median_raw,Yes,Forecast,Computed,"FY, Q",FY+1,The mean or average Net Asset Value (NAV) forecast submitted by any analyst for the company.
+NCAV Per Share,ncav_ps,Yes,Financials,Computed,"FY, Q",Q,A calculation inspired by Benjamin Graham. Net Current Asset Value is calculated as current assets minus total liabilities. NCAV per share expresses this calculation on per share basis.
+Net (Increase) Dec. in Loans Originated/Sold - Investing,loans_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents change in loans given by the company in the course of its lending activity and proceeds from repayment of such loans.
+Net Asset Value,nav_actual,Yes,Forecast,Computed,"FY, Q",FY,Net Asset Value as estimated by analysts.
+Net Cash (Ben Graham),cash_net,Yes,Financials,Computed,"FY, Q",Q,The sum of cash & short-term investments minus total liabilities.
+Net Cash from Discontinued Ops.,do_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents operating cash flows relating to discontinued operations of the company.
+Net Change in Cash,net_change,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The total change in cash for the company over the given period.
+Net Current Asset Value (NCAV),ncav,Yes,Financials,Computed,"FY, Q",Q,A calculation inspired by Benjamin Graham. Net Current Asset Value is calculated as current assets minus total liabilities.
+Net Debt,net_debt,Yes,Financials,Computed,"FY, Q",Q,The sum of all long term debt fields minus cash and short-term investments.
+Net Debt / EBITDA,net_debt_to_ebitda,Yes,Risk,Computed,"FY, Q, LTM, YTD",LTM,A ratio that is calculated as net debt divided by EBITDA.
+Net Debt / Total Capital,net_debt_to_capital,Yes,Risk,Computed,"FY, LTM",LTM,A ratio that measures the level of the net debt relative to the market value of total capital. Net debt is the sum of all long term debt fields minus cash and short-term investments.
+Net Debt Issued,net_debt_issued,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents net cash flows from issuance or repayments of debt.
+Net Income (CF),ni_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item represents the net earnings for the given period, as reported by the companies following indirect method of calculating cash flows from operations. In cases where the companies follow direct method of cash flow, this line item will be picked from income statement."
+Net Income Forecast,ni_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Forecasted net income.
+Net Income Forecast CAGR (10y),ni_proj_cagr_10y,Yes,Forecast,Computed,,,Ten year compound annual growth rate in forecasted net income.
+Net Income Forecast CAGR (5y),ni_proj_cagr_5y,Yes,Forecast,Computed,,,Five year compound annual growth rate in forecasted net income.
+Net Income Forecast Consensus Standard Deviation,ni_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted Net Income.
+Net Income Forecast Count of Estimates,ni_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a Net Income Forecast for the stock.
+Net Income Forecast High Consensus,ni_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest Net Income Forecast submitted by any analyst for the company.
+Net Income Forecast Low Consensus,ni_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest Net Income Forecast submitted by any analyst for the company.
+Net Income Forecast Mean Consensus,ni_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average Net Income Forecast submitted by any analyst for the company.
+Net Income Forecast Median Consensus,ni_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median Net Income Forecast submitted by any analyst for the company.
+Net Income Growth Forecast,ni_proj_growth,Yes,Forecast,Computed,"FY, Q",FY+1,Period over prior period growth in forecasted net income.
+Net Income Margin Forecast,ni_proj_margin,Yes,Forecast,Computed,"FY, Q",FY+1,Forecasted net income as a percent of forecasted revenue.
+Net Income to Common CAGR (10y),ni_avail_excl_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in net income to common excluding extra items.
+Net Income to Common CAGR (15y),ni_avail_excl_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in net income to common excluding extra items.
+Net Income to Common CAGR (20y),ni_avail_excl_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in net income to common excluding extra items.
+Net Income to Common CAGR (3y),ni_avail_excl_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in net income to common excluding extra items.
+Net Income to Common CAGR (5y),ni_avail_excl_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in net income to common excluding extra items.
+Net Income to Common CAGR (7y),ni_avail_excl_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in net income to common excluding extra items.
+Net Income to Common Excl Extra Items,ni_avail_excl,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the net income or loss available to common stockholders and is arrived after adjusting preferred stock dividends and other adjustments to net income to stockholders (cont. ops).
+Net Income to Common Excl Extra Items Growth,ni_avail_excl_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in net income to common excluding extra items.
+Net Income to Common Margin,ni_avail_excl_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the amount of profit from continuing operations that common shareholders earn on each dollar of revenue earned by the firm.
+Net Income to Common Incl Extra Items,ni_avail_incl,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the Net Income (Loss) available to common stockholders and is arrived after adjusting preferred stock dividends and other adjustments to Net Income (Loss) Before Pref. Dividend (NIIN).
+"Net Income to Common, Adjusted",ni_common_adj,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the net Income available to common shareholders of the company adjusted for unusual Items.
+Net Income to Company,ni_company,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents the net income available to all stakeholders of the company and is presented as total income or loss before discontinued operations, extraordinary items, preferred stock dividends and accounting change."
+Net Income to Company (Cont. Ops),ni_company_cont,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents the net income earned by the company from continuing operations. It is arrived at after adjusting, the following, to earnings before taxes (EBT) including non-recurring items: a) provision for income taxes (refund) b) minority interest, and c) U.S. GAAP adjustment."
+Net Income to Company (Cont. Ops) CAGR (10y),ni_company_cont_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in net income to company from continuing operations.
+Net Income to Company (Cont. Ops) CAGR (15y),ni_company_cont_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in net income to company from continuing operations.
+Net Income to Company (Cont. Ops) CAGR (20y),ni_company_cont_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in net income to company from continuing operations.
+Net Income to Company (Cont. Ops) CAGR (3y),ni_company_cont_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in net income to company from continuing operations.
+Net Income to Company (Cont. Ops) CAGR (5y),ni_company_cont_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in net income to company from continuing operations.
+Net Income to Company (Cont. Ops) CAGR (7y),ni_company_cont_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in net income to company from continuing operations.
+Net Income to Company (Cont. Ops) Growth,ni_company_cont_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in net income to company from continuing operations.
+Net Income to Company (Cont. Ops) Margin,ni_company_cont_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the amount of profit from continuing operations that the company earns on each dollar of revenue.
+Net Income to Stockholders,ni,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the net income or loss available to preferred and common stockholders and is arrived after adjusting net income to the company.
+Net Income to Stockholders CAGR (10y),ni_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in net income to stockholders.
+Net Income to Stockholders CAGR (15y),ni_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in net income to stockholders.
+Net Income to Stockholders CAGR (20y),ni_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in net income to stockholders.
+Net Income to Stockholders CAGR (3y),ni_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in net income to stockholders.
+Net Income to Stockholders CAGR (5y),ni_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in net income to stockholders.
+Net Income to Stockholders CAGR (7y),ni_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in net income to stockholders.
+Net Income to Shareholders Growth,ni_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in net income to stockholders.
+Net Income to Stockholders Margin,ni_margin,No,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the amount of profit that stockholders earn on each dollar of revenue earned by the firm.
+Net Income to Stockholders Margin CAGR (10y),ni_margin_cagr_10y,Yes,Efficiency,Computed,,,Ten-year compound annual growth rate in net income to stockholders margin.
+Net Income to Stockholders Margin CAGR (15y),ni_margin_cagr_15y,Yes,Efficiency,Computed,,,Fifteen-year compound annual growth rate in net income to stockholders margin.
+Net Income to Stockholders Margin CAGR (20y),ni_margin_cagr_20y,Yes,Efficiency,Computed,,,Twenty-year compound annual growth rate in net income to stockholders margin.
+Net Income to Stockholders Margin CAGR (3y),ni_margin_cagr_3y,Yes,Efficiency,Computed,,,Three-year compound annual growth rate in net income to stockholders margin.
+Net Income to Stockholders Margin CAGR (5y),ni_margin_cagr_5y,Yes,Efficiency,Computed,,,Five-year compound annual growth rate in net income to stockholders margin.
+Net Income to Stockholders Margin CAGR (7y),ni_margin_cagr_7y,Yes,Efficiency,Computed,,,Seven-year compound annual growth rate in net income to stockholders margin.
+Net Income to Stockholders (Cont. Ops),ni_stock_cont,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the net income or loss available to preferred and common stockholders and is arrived after adjusting net income to the company from continuing operations.
+Net Income to Stockholders (Cont. Ops) CAGR (10y),ni_stock_cont_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in net income to stockholders from continuing operations.
+Net Income to Stockholders (Cont. Ops) CAGR (15y),ni_stock_cont_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in net income to stockholders from continuing operations.
+Net Income to Stockholders (Cont. Ops) CAGR (20y),ni_stock_cont_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in net income to stockholders from continuing operations.
+Net Income to Stockholders (Cont. Ops) CAGR (3y),ni_stock_cont_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in net income to stockholders from continuing operations.
+Net Income to Stockholders (Cont. Ops) CAGR (5y),ni_stock_cont_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in net income to stockholders from continuing operations.
+Net Income to Stockholders (Cont. Ops) CAGR (7y),ni_stock_cont_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in net income to stockholders from continuing operations.
+Net Income to Stockholders (Cont. Ops) Growth,ni_stock_cont_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in net income to stockholders from continuing operations.
+Net Income to Stockholders (Cont. Ops) Margin,ni_stock_cont_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the amount of profit from continuing operations stockholders earn on each dollar of revenue earned by the firm.
+Net Interest Expenses,net_interest_exp,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the interest expense net of interest income.
+Net Interest Income,net_interest_inc,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the interest income as it relates to banking and financial institutions.
+Net Interest Income After Provision For Loan Losses,net_int_inc_after_loan_losses_bnk,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents the net interest income after provision for loan losses, as reported."
+Net Loans,net_loans,Yes,Bank,Balance Sheet,"FY, Q",Q,This item represents the net loans held by the banking and financial institution.
+Net Payout Yield,net_payout_yield,Yes,Valuation,Computed,"FY, LTM",LTM,A ratio that measures the cash dividend plus net stock repurchases over the trailing twelve months divided by the company's market capitalization.
+Net Rental Expense,net_rental_exp,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents rental expenses incurred during the period covered by the financial statements on properties leased under operating leases.
+Net Working Capital,nwc,Yes,Financials,Computed,"FY, Q",Q,Capital required to operate the day to day operations of a business. Calculated as (Total Current Assets - Cash & Short-term Investments) minus (Total Current Liabilities - Total Short-term Debt and Capital Leases - Dividends Payable)
+Net Working Capital Forecast,nwc_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Forecasted net working capital required to sustain operations.
+Net Working Capital Forecast Growth,nwc_proj_growth,Yes,Forecast,Computed,"FY, Q",FY+1,Period over prior period growth in forecasted net working capital required to sustain operations.
+Net Working Capital Forecast Margin,nwc_proj_margin,Yes,Forecast,Computed,"FY, Q",FY+1,Forecasted net working capital as percent of forecasted revenue.
+Net Working Capital Growth,nwc_growth,Yes,Financials,Computed,"FY, Q",Q,Period over prior period growth in net working capital.
+Net Working Capital Margin,nwc_margin,Yes,Efficiency,Computed,"FY, Q",Q,Net working capital expressed as a percent of revenue.
+Net-Net Working Capital (NNWC),nnwc,Yes,Financials,Computed,"FY, Q",Q,A calculation inspired by Benjamin Graham. Net-Net Working Capital is calculated as (cash & short-term investments + 75% * accounts receivable + 50% * inventory) minus total liabilities.
+New Trading Ticker,relisted,No,Misc,Misc,,,"If applicable, new ticker symbol of trading item"
+Next Earnings Date (Estimated),next_earnings_date,Yes,Financials,Estimated,,,The next time management is expected to report earnings.
+NI per SFAS 123 (after Options),ni_sfas,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the pro forma net income required to be disclosed as per SFAS No.123 which measures stock based compensation under fair value method.
+NNWC Per Share,nnwc_ps,Yes,Financials,Computed,"FY, Q",Q,A calculation inspired by Benjamin Graham. Net-Net Working Capital is calculated as (cash & short-term investments + 75% * accounts receivable + 50% * inventory) minus total liabilities. NNWC per Shares expresses this calculation on per share basis.
+Non Interest Bearing Deposits,non_int_bearing_deposits,Yes,Bank,Balance Sheet,"FY, Q",Q,This item represents non interest bearing deposits as relates to banks and financial institutions.
+"Non Interest Expense, Total",non_int_exp,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents non interest related expenses as relates to banks and financial institutions.
+"Non Interest Income, Total",non_int_inc,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents non interest related income as relates to banks and financial institutions.
+Non Operating Income (Expenses),non_oper_inc,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,The sum of all non-operating expenses for the given industry.
+Non-Cash Pension Expense,noncash_pension_exp,Yes,Financials,Balance Sheet,"FY, Q, LTM, YTD",LTM,The net amount of expenses paid for employee retirement benefits.
+Non-Insurance Activities Exp.,non_ins_exp,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,
+Non-Insurance Activities Revenue,non_ins_rev,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,
+NOPAT,nopat,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Net operating profit after tax (NOPAT) is calculated as operating income multiplied by 1 minus the tax rate: NOPAT = Operating Income x (1 - Tax Rate).
+NOPAT Forecast,nopat_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Projected net operating profit after tax.
+NOPAT Forecast CAGR (10y),nopat_proj_cagr_10y,Yes,Forecast,Computed,,,Ten year compound annual growth rate in forecasted net operating profit after tax.
+NOPAT Forecast CAGR (5y),nopat_proj_cagr_5y,Yes,Forecast,Computed,,,Five year compound annual growth rate in forecasted net operating profit after tax.
+NOPAT Forecast Growth,nopat_proj_growth,Yes,Forecast,Computed,"FY, Q",FY+1,Period over prior period growth in forecasted net operating profit after tax (NOPAT).
+NOPAT Forecast Margin,nopat_proj_margin,Yes,Forecast,Computed,"FY, Q",FY+1,Forecasted net operating profit after tax as a percent of forecasted revenue.
+Normalized Basic EPS,eps_basic_norm,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item is calculated as Normalized Net Income / Basic Weighted Average Shares Outstanding. This item is adjusted for historical stock splits and for multiple class companies, per share items are primary class equivalent, and for foreign companies listed as primary ADRs, per share items are ADR-equivalent."
+Normalized Diluted EPS,eps_diluted_norm,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item is calculated as Normalized Net Income / Diluted Weighted Average Shares Outstanding. This item is adjusted for historical stock splits and for multiple class companies, per share items are primary class equivalent, and for foreign companies listed as primary ADRs, per share items are ADR-equivalent."
+Normalized Net Income,ni_norm,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item is EBT, Excl. Unusual Items * (1 - Statutory Tax Rate) + Minority Int. in Earnings. Note: this metric assumes statutory tax rate of 37.5% for all companies."
+Number of Branches,num_branches,No,Misc,Misc,"FY, Q",Q,The number of branches through which the company conducts business.
+Number of Buy Recommendations,analyst_buy_rec_count,Yes,Valuation,Computed,D,D,The number of analysts publishing a Buy recommendation for the stock.
+Number of Hold Recommendations,analyst_hold_rec_count,Yes,Valuation,Computed,D,D,The number of analysts publishing a Hold recommendation for the stock.
+Number of No Opinion Recommendations,analyst_no_opinion_rec_count,Yes,Valuation,Computed,D,D,The number of analysts publishing a No Opinion recommendation for the stock.
+Number of Outperform Recommendations,analyst_outperform_rec_count,Yes,Valuation,Computed,D,D,The number of analysts publishing an Outperform recommendation for the stock.
+Number of Sell Recommendations,analyst_sell_rec_count,Yes,Valuation,Computed,D,D,The number of analysts publishing a Sell recommendation for the stock.
+Number of Underperform Recommendations,analyst_underperform_rec_count,Yes,Valuation,Computed,D,D,The number of analysts publishing an Underperform recommendation for the stock.
+Operating Cash Flow Margin,cash_from_operations_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the amount of revenue a firm can convert into operating cash flow.
+Operating Country,country,No,Misc,Misc,,,Country name where the company primarily operates
+Operating Country ISO Code,country_iso,No,Misc,Misc,,,Three letter ISO Code of the country where the company primarily operates
+Operating Country ISO Code,country_iso,No,Misc,Misc,,,Operating country id (ISO 3-letter Code)
+Operating Income,oper_inc,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,The income after operating expenses.
+Operating Income CAGR (10y),oper_inc_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in operating income.
+Operating Income CAGR (15y),oper_inc_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in operating income.
+Operating Income CAGR (20y),oper_inc_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in operating income.
+Operating Income CAGR (3y),oper_inc_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in operating income.
+Operating Income CAGR (5y),oper_inc_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in operating income.
+Operating Income CAGR (7y),oper_inc_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in operating income.
+Operating Income Growth,oper_inc_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in operating income.
+Operating Income Margin,oper_inc_margin,No,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Operating income expressed as a percent of revenue.
+Operating Income Margin CAGR (10y),oper_inc_margin_cagr_10y,Yes,Efficiency,Computed,,,Ten-year compound annual growth rate in operating income margin.
+Operating Income Margin CAGR (15y),oper_inc_margin_cagr_15y,Yes,Efficiency,Computed,,,Fifteen-year compound annual growth rate in operating income margin.
+Operating Income Margin CAGR (20y),oper_inc_margin_cagr_20y,Yes,Efficiency,Computed,,,Twenty-year compound annual growth rate in operating income margin.
+Operating Income Margin CAGR (3y),oper_inc_margin_cagr_3y,Yes,Efficiency,Computed,,,Three-year compound annual growth rate in operating income margin.
+Operating Income Margin CAGR (5y),oper_inc_margin_cagr_5y,Yes,Efficiency,Computed,,,Five-year compound annual growth rate in operating income margin.
+Operating Income Margin CAGR (7y),oper_inc_margin_cagr_7y,Yes,Efficiency,Computed,,,Seven-year compound annual growth rate in operating income margin.
+"Operating Leases, Debt Equivalent",debt_equiv_oper_lease,Yes,Financials,Computed,"FY, Q",Q,This item represents the amount of additional capital leases on the company's balance sheet if all operating leases were capitalized.
+Operating Region,operating_region,No,Misc,Misc,,,The operating region name of the company
+Operating Region ID,operating_region_id,No,Misc,Misc,,,The operating region id of the company
+Other Adj. to Gross Loans,other_adjust_gross_loans,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Other Current Assets,other_ca,Yes,Financials,Balance Sheet,"FY, Q",Q,"Field containing the sum of all current assets that cannot be standardized into another field as well as those that are aggregated by the company because materially, they are too small to list separately."
+Other Current Liabilities,other_cl_suppl,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents all residual data items that do not fit perfectly into any of the current liabilities categories separately categorized. If Other Current Liabilities are combined with accrued expenses or with any other liabilities, where Other Current Liabilities appear as first string and the company does not report the break up for the same, then the same will form part of this data item only."
+Other Financing Activities,other_finance_act_suppl,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item represents all other financing cash flows, not included in any specific data item."
+Other Intangibles,other_intan_bnk,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Other Intangibles,other_intangibles,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the net values of those assets (i.e. gross intangibles less accumulated amortization), which provide future economic benefit to the enterprise but have no physical form. It also includes the combined net amount of ""Goodwill and Intangibles"" (i.e. gross goodwill and intangibles as reduced by the accumulated amortization), where it is not possible to separately identify net goodwill and net intangibles."
+Other Investing Activities,other_invest_act_suppl,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents all other investing cash flows not included in any specific data item.
+Other Long-Term Assets,other_lt_assets,Yes,Financials,Balance Sheet,"FY, Q",Q,The sum of all assets classified as non-current
+"Other Non Operating Expenses, Total",other_non_oper_exp,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,
+Other Non Operating Inc. (Exp.),other_non_oper_exp_suppl,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents any other income (expense), which is not directly attributable to the operating activities of the company."
+Other Non-Current Liabilities,other_liab_lt,Yes,Financials,Balance Sheet,"FY, Q",Q,"Field containing the sum of all non-current liabilities that cannot be standardized into another field as well as those that are aggregated by the company because materially, they are too small to list separately."
+Other Operating Activities,other_oper_act,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item represents all other operating cash flows, not included in any specific data item."
+Other Operating Exp.,other_oper_ins,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,
+"Other Operating Expenses, Total",total_other_oper,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the other operating costs incurred during the given fiscal year.
+Other Operating Expenses/(Income),other_oper,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents all other operating expenses incurred in the ordinary course of business, which are recurring in nature. If company combines other income with other expense, then we do not include in this item."
+Other Payables,payables_other,Yes,Financials,Balance Sheet,"FY, Q",Q,Miscellaneous payables.
+Other Receivables,other_receiv,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents all amounts receivable by the company in the form of cash other than those classified as accounts receivable or notes receivable.
+Other Revenue,other_rev_suppl,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the incidental revenues that are earned while performing the primary activities of the company.
+Other Revenue,other_rev_suppl_ins,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,
+Other Unusual Items,other_unusual_suppl,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents any non-recurring income (expense) such as write off of inventories and note receivable, impairment of goodwill and any other special, unusual and one time income (expense)."
+"Other Unusual Items, Total",other_unusual,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents any the sum of all non-recurring income (expense) such as write off of inventories and note receivable, impairment of goodwill and any other special, unusual and one time income (expense)."
+Owner Earnings,owner_earnings,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,"A measure of free cash flow made famous by Warren Buffett when he wrote about it in Berkshire Hathaway's annual report in 1986. Mr. Buffett stated that the value of a company is the present value of owner earnings expected to occur over the life of a business, less any reinvestment of earnings."
+Owner Earnings Yield,owner_earnings_yield,Yes,Valuation,Computed,"FY, LTM",LTM,Measures amount of ower earnings for each dollar of market cap.
+P/E Ratio,pe_ltm,No,Valuation,Computed,"FY, LTM",LTM,Indicates the multiple of earnings that stock investors are willing to pay for one share of the firm.
+P/E Ratio (Adjusted),pe_ltm_adj,Yes,Valuation,Computed,"FY, LTM",LTM,"Indicates the multiple of earnings, adjusted for usual items, that stock investors are willing to pay for one share of the firm."
+P/E Ratio (Fwd),pe_fwd,No,Valuation,Computed,FY,FY+1,Indicates the multiple of forward earnings that stock investors are willing to pay for one share of the firm.
+Payment Date of Last Dividend,last_div_payment_date,Yes,Dividends,Computed,D,D,Date of the last dividend payment.
+Payment Type of Last Dividend,last_div_payment_type,Yes,Dividends,Computed,D,D,"Payment type of the last dividend. Value can be one of the following: cash, stock, spinoff, rights, and multiple dividends."
+Payout Ratio,payout_ratio,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,A ratio that measures the percentage of net income a firm is paying out to shareholders versus retaining for reinvestment in the business.
+Payout Ratio Forecast,payout_ratio_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Projected payout ratio.
+PEG Ratio,peg_ltm,No,Valuation,Computed,"FY, LTM",LTM,A crude heuristic used to measure the level of earnings growth reflected in a stock's market price.
+PEG Ratio Fwd,peg_fwd,Yes,Valuation,Computed,FY,FY+1,A crude heuristic used to measure the level of projected earnings growth reflected in a stock's market price.
+Period End Date,period_end_date,No,Misc,Misc,"FY, Q, LTM, YTD",Q,The date of the reporting period.
+Piotroski Score,piotroski_score,Yes,Efficiency,Computed,"FY, LTM",LTM,"A score developed by Stanford accounting professor Joseph Piotroski to find companies with healthy Liquid Balance Sheets, Profitability, and Operating Efficiency."
+Policy Acq. And Underwriting Costs,policy_cost,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the policy acquisition costs including deferred costs of various types of insurance businesses.
+Policy Benefits,policy_benefits,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents the benefits/dividends paid or payable to policyholders including Life, Accident & Health, Property & Casualty and Annuity policyholders."
+Policy Loans,policy_loans,Yes,Insurance,Balance Sheet,"FY, Q",Q,
+Pre-tax Income Margin,ebt_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Earnings before taxes expressed as a percent of revenue.
+"Pref. Stock, Non-Redeemable",pref_stock,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents the preferred stock of the company which is not redeemable during its life time.
+Preferred Dividends Paid (CF),pref_div_cf,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,The sum of dividends paid to preferred and other equity holders.
+Preferred Dividends Paid (IS),pref_div,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,
+Preferred Dividends Paid CAGR (10y),pref_div_cf_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in preferred dividends paid.
+Preferred Dividends Paid CAGR (15y),pref_div_cf_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in preferred dividends paid.
+Preferred Dividends Paid CAGR (20y),pref_div_cf_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in preferred dividends paid.
+Preferred Dividends Paid CAGR (3y),pref_div_cf_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in preferred dividends & other adj.
+Preferred Dividends Paid CAGR (5y),pref_div_cf_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in preferred dividends & other adj.
+Preferred Dividends Paid CAGR (7y),pref_div_cf_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in preferred dividends & other adj.
+Preferred Dividends Paid Growth,pref_div_cf_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in preferred dividends & other adj.
+Preferred Dividends Paid Margin,pref_div_cf_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Preferred dividends & other adjustments expressed as a percent of revenue.
+Preferred Stock Redeemable,redeem_pref_stock,Yes,Financials,Balance Sheet,"FY, Q",Q,Mandatorily redeemable securities of subsidiary companies.
+Premiums and Annuity Rev.,premiums_annuity_rev,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,
+Prepaid Expenses,prepaid_exp,Yes,Financials,Balance Sheet,"FY, Q",Q,A current asset created by prepayment of costs and expenses for which the benefits will occur at a future date.
+Price / Book,price_to_book,No,Valuation,Computed,"FY, LTM",LTM,Compares a firm's market value of equity to the amount of common equity listed on the balance sheet.
+Price / Fwd Sales,price_to_sales_fwd,No,Valuation,Computed,FY,FY+1,Indicates the multiple of forward sales that stock investors are willing to pay for one share of the firm.
+Price / LTM Sales,price_to_sales_ltm,No,Valuation,Computed,"FY, LTM",LTM,Indicates the multiple of sales that stock investors are willing to pay for one share of the firm.
+Price / NCAV,price_to_ncav,No,Valuation,Computed,"FY, LTM",LTM,Compares the current stock price to the Net Current Asset Value (NCAV) where NCAV equals the company's Current Assets minus its Total Liabilities.
+Price / NNWC,price_to_nnwc,No,Valuation,Computed,"FY, LTM",LTM,Compares the current stock price to the Net Net Working Capital (NNWC) where NNWC equals Cash & Equivalents + (Accounts Receivables x 0.75) + (Inventory x 0.5) - Total Liabilities.
+Price / Operating Cash Flow,price_to_ocf_ltm,No,Valuation,Computed,"FY, LTM",LTM,Measures the ratio of a stock's price to its operating cash flow per share.
+Price / Tangible Book Value,ptbv,Yes,Valuation,Computed,"FY, LTM",LTM,Compares a firm's market value of equity to its book value of tangible common equity value.
+Price $ Change Today,asset_price_latest_change,No,Valuation,Computed,,,The change in stock price so far today.
+Price Change Today,asset_price_latest_change_pct,No,Valuation,Computed,,,The percentage change in stock price so far today.
+Primary Ticker of Company,primary_ticker,No,Misc,Misc,,,The ticker of the primary trading item for the company.
+Primary Trading Item Flag,is_primary,No,Misc,Misc,,,Returns the value TRUE if the trading item is a Primary Ticker of Company
+Projected Pension Benefit Obligation,pension_liabilities,Yes,Financials,Balance Sheet,"FY, Q",Q,Liabilities for employee post-retirement benefits.
+Projected Pension Benefit Obligation,unfunded_vested_pension_liab,Yes,Financials,Misc,"FY, Q",Q,"This item represents the total projected benefits, vested and non-vested payable by an employer to an employee in respect of defined benefit pension plans (Both Domestic and Foreign Plans)."
+"Property Plant And Equipment, Net",nppe,Yes,Financials,Balance Sheet,"FY, Q",Q,"The sum of all gross property, plant & equipment minus total accumulated depreciation and depletion."
+Provision for Loan Losses,ll,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+Quick Ratio,quick_ratio,Yes,Risk,Computed,"FY, Q",Q,A ratio used to assess a company's short-term liquidity.
+R&D Expenses,rd_exp,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,An expense arising from studies and product development processes.
+Real Estate Owned,real_estate,Yes,Financials,Balance Sheet,"FY, Q",Q,"Real estate and other properties reported separately from other plant, property and equipment fields."
+Record Date of Last Dividend,last_div_record_date,Yes,Dividends,Computed,D,D,Record date is the cut-off date used to determine which shareholders are entitled to receive a corporate dividend.
+Reinsurance Payable,reinsur_pay,Yes,Financials,Balance Sheet,"FY, Q",Q,This item represents the premiums payable by an insurance company to another insurance company in respect of insurance ceded in order to reduce its overall risk.
+Reinsurance Recoverable,reinsur_recover,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents amounts recoverable from other insurance companies (re-insurers) for claims paid which are covered by reinsurance. When insurance risk is ceded to other re-insuring companies, a portion of premiums is paid to them and if a claim arises, then a portion of the claim paid is recoverable from them as per the terms of the reinsurance contract. It also includes other amounts recoverable from reinsurers when reported by the company under the 'Reinsurance' section."
+Relative Strength Index (14d),rsi_14d,No,Valuation,Computed,,,A momentum oscillator that measures the speed and change of price movements.
+Reporting Currency,reporting_currency,No,Misc,Misc,,,The currency in which a company's reports its financial statements.
+Reporting Frequency,reporting_frequency,No,Misc,Misc,,,The frequency with which a company's reports its financial statements.
+Reporting Scale,reporting_scale,No,Misc,Misc,,,"The unit in which a company's reports its financial statements (thousands, millions, billions, etc.)."
+Repurchase of Common Stock,common_rep,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,The amount of cash spent by the company to repurchase company stock in the given period.
+Research and Development CAGR (10y),rd_exp_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in research and development.
+Research and Development CAGR (15y),rd_exp_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in research and development.
+Research and Development CAGR (20y),rd_exp_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in research and development.
+Research and Development CAGR (3y),rd_exp_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in research and development.
+Research and Development CAGR (5y),rd_exp_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in research and development.
+Research and Development CAGR (7y),rd_exp_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in research and development.
+Research and Development Growth,rd_exp_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in research and development.
+Research and Development Margin,rd_exp_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,The sum of research and development expenses as a percent of revenue.
+Restatement Type,restatement_type,Yes,Financials,Misc,"FY, Q, LTM, YTD",LTM,
+Restricted Cash,restricted_cash,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents cash and cash equivalents, which are restricted for use or transfer, and normally consists of funds held in escrow or cash restricted in use."
+Restructuring Charges,restructure,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Expenses incurred from reorganizing a company's internal operational architecture or debt structure.
+Retained Earnings,retained_earn,Yes,Financials,Balance Sheet,"FY, Q",Q,Profits reinvested in the corporation after dividends have been paid out.
+Return on Assets,roa,No,Efficiency,Computed,"FY, LTM",LTM,A ratio that measures the dollars in net profit a business generates per dollar of assets it owns.
+Return on Assets CAGR (10y),roa_cagr_10y,Yes,Efficiency,Computed,,,Ten-year compound annual growth rate in return on assets.
+Return on Assets CAGR (15y),roa_cagr_15y,Yes,Efficiency,Computed,,,Fifteen-year compound annual growth rate in return on assets.
+Return on Assets CAGR (20y),roa_cagr_20y,Yes,Efficiency,Computed,,,Twenty-year compound annual growth rate in return on assets.
+Return on Assets CAGR (3y),roa_cagr_3y,Yes,Efficiency,Computed,,,Three-year compound annual growth rate in return on assets.
+Return on Assets CAGR (5y),roa_cagr_5y,Yes,Efficiency,Computed,,,Five-year compound annual growth rate in return on assets.
+Return on Assets CAGR (7y),roa_cagr_7y,Yes,Efficiency,Computed,,,Seven-year compound annual growth rate in return on assets.
+Return on Capital,return_capital,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,This item is calculated as EBIT divided by the sum of (Total Equity + Total Debt + Total Deferred Tax Liabilities). If the denominator is less than or equal to zero then the ratio will be shown as NM and if the return is less than (300%) then the value will be shown as NM.
+Return on Capital Employed,roce,Yes,Efficiency,Computed,"FY, LTM",LTM,A capital efficiency ratio used to measure a firm's profitability relative to the capital employed. Capital employed is defined as total assets minus current liabilities.
+Return on Common Equity,roe,No,Efficiency,Computed,"FY, LTM",LTM,A ratio used to measure the return that a firm generates on the book value of common equity.
+Return on Equity CAGR (10y),roe_cagr_10y,Yes,Efficiency,Computed,,,Ten-year compound annual growth rate in return on equity.
+Return on Equity CAGR (15y),roe_cagr_15y,Yes,Efficiency,Computed,,,Fifteen-year compound annual growth rate in return on equity.
+Return on Equity CAGR (20y),roe_cagr_20y,Yes,Efficiency,Computed,,,Twenty-year compound annual growth rate in return on equity.
+Return on Equity CAGR (3y),roe_cagr_3y,Yes,Efficiency,Computed,,,Three-year compound annual growth rate in return on equity.
+Return on Equity CAGR (5y),roe_cagr_5y,Yes,Efficiency,Computed,,,Five-year compound annual growth rate in return on equity.
+Return on Equity CAGR (7y),roe_cagr_7y,Yes,Efficiency,Computed,,,Seven-year compound annual growth rate in return on equity.
+Return on Invested Capital,roic,Yes,Efficiency,Computed,"FY, LTM",LTM,"A capital efficiency ratio used to measure a firm's ability to create value for all its stakeholders, debt, and equity."
+Return on Invested Capital CAGR (10y),roic_cagr_10y,Yes,Efficiency,Computed,,,Ten-year compound annual growth rate in return on invested capital.
+Return on Invested Capital CAGR (15y),roic_cagr_15y,Yes,Efficiency,Computed,,,Fifteen-year compound annual growth rate in return on invested capital.
+Return on Invested Capital CAGR (20y),roic_cagr_20y,Yes,Efficiency,Computed,,,Twenty-year compound annual growth rate in return on invested capital.
+Return on Invested Capital CAGR (3y),roic_cagr_3y,Yes,Efficiency,Computed,,,Three-year compound annual growth rate in return on invested capital.
+Return on Invested Capital CAGR (5y),roic_cagr_5y,Yes,Efficiency,Computed,,,Five-year compound annual growth rate in return on invested capital.
+Return on Invested Capital CAGR (7y),roic_cagr_7y,Yes,Efficiency,Computed,,,Seven-year compound annual growth rate in return on invested capital.
+Revenue,total_rev,No,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,The sum of all revenue fields included for a company's operating activities.
+Revenue before Loan Losses,rev_before_ll,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+Revenue CAGR (10y),total_rev_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in revenue.
+Revenue CAGR (15y),total_rev_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in revenue.
+Revenue CAGR (20y),total_rev_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in revenue.
+Revenue CAGR (3y),total_rev_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in revenue.
+Revenue CAGR (5y),total_rev_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in revenue.
+Revenue CAGR (7y),total_rev_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in revenue.
+Revenue Forecast,revenue_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Forecasted revenue based on consensus analyst estimates when available.
+Revenue Forecast CAGR (10y),revenue_proj_cagr_10y,Yes,Forecast,Computed,,,Ten year compound annual growth rate in forecasted revenue.
+Revenue Forecast CAGR (5y),revenue_proj_cagr_5y,Yes,Forecast,Computed,,,Five year compound annual growth rate in forecasted revenue.
+Revenue Forecast Consensus Standard Deviation,revenue_proj_stdev,Yes,Forecast,Estimated,"FY, Q",FY+1,Standard deviation in forecasted Revenue.
+Revenue Forecast Count of Estimates,revenue_proj_count,Yes,Forecast,Estimated,"FY, Q",FY+1,The number of analysts publishing a Revenue Forecast for the stock.
+Revenue Forecast High Consensus,revenue_proj_high_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The highest Revenue Forecast submitted by any analyst for the company.
+Revenue Forecast Low Consensus,revenue_proj_low_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The lowest Revenue Forecast submitted by any analyst for the company.
+Revenue Forecast Mean Consensus,revenue_proj_mean_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The mean or average Revenue Forecast submitted by any analyst for the company.
+Revenue Forecast Median Consensus,revenue_proj_median_raw,Yes,Forecast,Estimated,"FY, Q",FY+1,The median Revenue Forecast submitted by any analyst for the company.
+Revenue Growth,total_rev_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in revenue.
+Revenue Growth Forecast,revenue_proj_growth,Yes,Forecast,Computed,"FY, Q",FY+1,Period over prior period growth in forecasted revenue.
+Rule of 40,rule_of_40,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,"A ratio that measures a company’s combined growth rate and profit margin. Many venture capital and growth equity investors believe this ratio should exceed 40%, especially for software companies"
+Salaries and Other Emply. Benefits,salary,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the salaries and other benefits provided to the employees.
+"Sale of Property, Plant and Equipment",sale_ppe_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item represents cash received (inflows) by the company from the sale of plant, property and equipment."
+Sector,sector,No,Misc,Misc,,,The sector in which a stock operates.
+Sector ID,sector_id,No,Misc,Misc,,,The unique sector id assigned to a company.
+Securities Purchased Under Agreements To Resell,security_resell,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Security End Date,last_trade_date,No,Misc,Misc,,,Last trading date of a delisted security.
+Security Features,features,No,Misc,Misc,,,Special features associated with the security
+Security Name,security_name,No,Misc,Misc,,,Name of trading item's security
+Security Start Date,security_start_date,No,Misc,Misc,,,The date the subject security was issued
+Security Subtype,security_subtype,No,Misc,Misc,,,Type of trading item's security
+Selling and Marketing Expense,sales_marketing,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,
+Selling General & Admin Expenses,sga,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"The sum of all selling, general and administrative expenses."
+"Selling General & Admin. Exp., Total",sga_bnk,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+"Selling, General and Admin CAGR (10y)",sga_cagr_10y,Yes,Financials,Computed,,,"Ten-year compound annual growth rate in selling, general and administrative expenses."
+"Selling, General and Admin CAGR (15y)",sga_cagr_15y,Yes,Financials,Computed,,,"Fifteen-year compound annual growth rate in selling, general and administrative expenses."
+"Selling, General and Admin CAGR (20y)",sga_cagr_20y,Yes,Financials,Computed,,,"Twenty-year compound annual growth rate in selling, general and administrative expenses."
+"Selling, General and Admin CAGR (3y)",sga_cagr_3y,Yes,Financials,Computed,,,"Three-year compound annual growth rate in selling, general and administrative expenses."
+"Selling, General and Admin CAGR (5y)",sga_cagr_5y,Yes,Financials,Computed,,,"Five-year compound annual growth rate in selling, general and administrative expenses."
+"Selling, General and Admin CAGR (7y)",sga_cagr_7y,Yes,Financials,Computed,,,"Seven-year compound annual growth rate in selling, general and administrative expenses."
+"Selling, General and Admin Growth",sga_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,"Period over prior period growth in selling, general and administrative expenses."
+"Selling, General and Admin Margin",sga_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,"The sum of selling, general and administrative expenses as a percent of revenue."
+Separate Account Assets,separate_acct_assets,Yes,Insurance,Misc,"FY, Q",Q,
+Separate Account Liability,separate_acct_liab,Yes,Insurance,Misc,"FY, Q",Q,
+Shareholder Yield,shareholder_yield,Yes,Valuation,Computed,"FY, LTM",LTM,"A ratio that measures the total amount of money the company is returning back to shareholders in the form of cash dividends, net stock repurchases, and debt paydown."
+Shares Outstanding,shares_out,No,Valuation,Computed,D,D,Shares outstanding of company's equity shares
+Shares Outstanding Adjustment Factor,shares_out_adj,No,Valuation,Computed,"FY, LTM",LTM,The number of shares of the primary security that are represented by each trading security.
+Shares Outstanding CAGR (10y),shares_out_cagr_10y,Yes,Valuation,Computed,,,Ten-year compound annual growth rate in shares outstanding.
+Shares Outstanding CAGR (15y),shares_out_cagr_15y,Yes,Valuation,Computed,,,Fifteen-year compound annual growth rate in shares outstanding.
+Shares Outstanding CAGR (20y),shares_out_cagr_20y,Yes,Valuation,Computed,,,Twenty-year compound annual growth rate in shares outstanding.
+Shares Outstanding CAGR (3y),shares_out_cagr_3y,Yes,Valuation,Computed,,,Three-year compound annual growth rate in shares outstanding.
+Shares Outstanding CAGR (5y),shares_out_cagr_5y,Yes,Valuation,Computed,,,Five-year compound annual growth rate in shares outstanding.
+Shares Outstanding CAGR (7y),shares_out_cagr_7y,Yes,Valuation,Computed,,,Seven-year compound annual growth rate in shares outstanding.
+Shares per Depository Receipt,shares_per_adr,Yes,Financials,Misc,"FY, Q, LTM, YTD",LTM,ADR/GDR ratio for all companies that are deemed the ADR/GDR security as company primary (all non-primary ADR/GDR companies will be given a value = 1)
+Short Interest (Shares),short_interest,No,Valuation,Computed,"FY, Q, LTM, YTD",LTM,This item represents the number of shares that have been sold short but have not yet been covered or closed out.
+Short Interest Ratio,short_ratio,No,Valuation,Computed,"FY, LTM",LTM,The ratio of tradable shares being shorted to shares in the market.
+Short Term Debt Coverage Ratio,debt_coverage_st,Yes,Risk,Computed,"FY, LTM",LTM,A ratio that measures the amount of cash flow a firm generates for each dollar of short-term debt it uses
+Short Term Investments,st_invest,Yes,Financials,Balance Sheet,"FY, Q",Q,The aggregate value of debt and or equity investments with maturities or benefits lasting less than one year.
+Short-term Borrowings,st_debt,Yes,Financials,Income Statement,"FY, Q",Q,Amounts owed that are documented by printed notes.
+Short-Term Debt Issued,st_debt_issued,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents cash inflows on account of issuance of short-term debt.
+Short-Term Debt Repaid,st_debt_repaid,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents cash outflows on account of repayment of short-term debt.
+Similar Companies,benchmarks,No,Misc,Misc,,,Companies similar to the subject company.
+Similar Companies Ids,benchmark_ids,No,Misc,Misc,,,Ids of companies that are similar to the subject company.
+Special Dividend Paid,special_div_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,This item represents any special dividend/distribution to the equity shareholders apart from the normal dividend distribution. This type of dividend distribution is non-recurring in nature.
+Stock Exchange,exchange,No,Misc,Misc,,,The primary stock exchange where a stock is listed.
+Stock Price (Current),asset_price_latest,No,Valuation,Computed,,,The current stock price.
+Stock Price Close (Div & Split Adjusted),asset_price_close_adj,No,Valuation,Computed,D,D,The stock price at the close of the last trading day.
+Stock Price Close (Div & Split Adjusted) (Trading Days Only),asset_price_close_adj_trading,No,Valuation,Computed,D,D,
+Stock Price Close (Split Adjusted),asset_price_close,No,Valuation,Computed,D,D,The stock price at the close of the trading day.
+Stock Price Close (Unadjusted),asset_price_close_unadj,No,Valuation,Computed,D,D,
+Stock Price Close (Unadjusted) (Trading Days Only),asset_price_close_unadj_trading,No,Valuation,Computed,D,D,
+Stock Price Close Date,asset_price_close_date,No,Valuation,Misc,D,D,The date of the stock price.
+Stock Price Close Date (Trading Days Only),asset_price_close_date_trading,No,Valuation,Computed,D,D,
+Stock Price High (Div & Split Adjusted) (Trading Days Only),asset_price_high_adj_trading,No,Valuation,Computed,D,D,
+Stock Price Low (Div & Split Adjusted) (Trading Days Only),asset_price_low_adj_trading,No,Valuation,Computed,D,D,
+"Stock-Based Comp, SG&A Expense",stock_based_sga,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the stock based compensation included in SG&A when available.
+"Stock-Based Comp, Total",stock_based_total,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Total Stock-Based Compensation is a supplemental line item with the following components: Stock-Based Comp., COGS (Total), Stock-Based Comp., R&D Exp. (Total), Stock-Based Comp., S&M Exp. (Total), Stock-Based Comp., G&A Exp. (Total), Stock-Based Comp., SG&A Exp. (Total), Stock-Based Comp., Other (Total), Stock-Based Comp., After-Tax (Total)."
+"Stock-Based Comp, Unallocated",stock_based_other,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Stock-Based Comp., Other (Total) is a supplemental line item that represents stock based compensation disclosed by the company but not associated with a particular operating expense - values can be either main table line items or standalone values This item includes: Stock purchase discount Incentive stock and other compensation. ESOP expense Stock price related incentive program Stock appreciation right expense or stock discount Non-cash stock compensation Discretionary ESOP contribution Non-cash imputed (ESOP) compensation expense Contributions to employee profit sharing and employee stock option plan. Compensatory element of stock issuance Transaction related compensation charge. Non-recurring compensation expense on option grants. Share based plans."
+Tangible Book Value,tbv,Yes,Financials,Balance Sheet,"FY, Q",Q,The book value of common equity less intangible assets.
+Tangible Book Value Per Share,tbv_share,Yes,Financials,Computed,"FY, Q",Q,The book value of common equity less intangible assets on a per basic share basis.
+Tangible Common Equity,equity_common_tangible,Yes,Financials,Computed,"FY, Q",Q,The book value of common equity less intangible assets.
+Tangible Equity,equity_tangible,Yes,Financials,Computed,"FY, Q",Q,The book value of total equity less intangible assets.
+Ticker,ticker,No,Misc,Misc,,,The ticker symbol a stock trades under on its primary stock exchange.
+Total Assets,total_assets,Yes,Financials,Balance Sheet,"FY, Q",Q,The sum of all assets on a company's balance sheet.
+Total Capital,total_cap,Yes,Financials,Balance Sheet,"FY, Q",Q,"Total Capital is a supplemental line item with the following components: Total Preferred Equity, Total Debt, Total Common Equity, and Minority Interest, Total (Incl. Fin. Div)."
+Total Capital (Market Value),total_cap_market,Yes,Valuation,Computed,"FY, LTM",LTM,"Total Capital (Market Value) is a supplemental line item with the following components: Total Preferred Equity, Total Debt, Market Value of Total Common Equity, and Minority Interest, Total (Incl. Fin. Div)."
+Total Cash And Short Term Investments,cash_st,Yes,Financials,Balance Sheet,"FY, Q",Q,"Cash deposits at financial institutions that can immediately be withdrawn at any time, and investments maturing in one year or less that are highly liquid and therefore regarded as cash equivalents and reported with or near cash line items. Cash equivalents are extremely liquid investments with low risk that can immediately be converted to cash. Includes cash restricted for specific purposes."
+Total Common Equity,equity_common,Yes,Financials,Balance Sheet,"FY, Q",Q,The sum of all common equity items
+Total Common Equity CAGR (10y),equity_common_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in total common equity.
+Total Common Equity CAGR (15y),equity_common_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in total common equity.
+Total Common Equity CAGR (20y),equity_common_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in total common equity.
+Total Common Equity CAGR (3y),equity_common_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in total common equity.
+Total Common Equity CAGR (5y),equity_common_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in total common equity.
+Total Common Equity CAGR (7y),equity_common_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in total common equity.
+Total Current Assets,total_ca,Yes,Financials,Balance Sheet,"FY, Q",Q,The sum of all assets that are classified as current because they will provide a benefit within one year.
+Total Current Liabilities,total_cl,Yes,Financials,Balance Sheet,"FY, Q",Q,The sum of all liabilities classified as current for having maturities of less than one year.
+Total Current Taxes,curr_taxes,Yes,Financials,Balance Sheet,"FY, Q, LTM, YTD",LTM,"This item represents the current amount of income taxes payable, both domestic and foreign."
+Total Debt,total_debt,No,Financials,Balance Sheet,"FY, Q",Q,The sum of all debt and capital lease obligations.
+Total Debt / EBITDA,total_debt_to_ebitda,Yes,Risk,Computed,"FY, Q, LTM, YTD",LTM,A ratio that is calculated as Total Debt (including Capital Leases) divided by EBITDA.
+Total Debt / Total Capital,debt_to_capital,Yes,Risk,Computed,"FY, LTM",LTM,A ratio that measures the level of the debt relative to the market value of total capital.
+Total Debt Issued,total_debt_issued,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item is the sum of following components: Short Term Debt Issued, Long-Term Debt Issued, and Trust Preferred Securities Issued."
+Total Debt Repaid,total_debt_repaid,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item is the sum of following components: Capital Lease Payments, Trust Preferred Securities Repaid, Short Term Debt Repaid, and Long-Term Debt Repaid."
+Total Deferred Taxes,deferred_taxes_total,Yes,Financials,Balance Sheet,"FY, Q, LTM, YTD",LTM,"This item represents the deferred amount of income taxes payable by the company, both domestic and foreign."
+Total Deposits,total_deposits,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Total Dividends Paid,total_div_paid_cf,Yes,Financials,Cash Flow Statement,"FY, Q, LTM, YTD",LTM,"This item represents cash outflows towards dividends or distributions, either to common or preferred stockholders during the relevant period. The amount paid may relate to pending dividend of earlier period also."
+Total Enterprise Value (TEV),total_enterprise_value,Yes,Valuation,Computed,D,D,The total value of a firm including claims of creditors (secured and unsecured) and shareholders (preferred and common).
+Total Equity,total_equity,Yes,Financials,Balance Sheet,"FY, Q",Q,The sum of preferred and common equity items
+Total Interest and Dividend Income,int_div_inc,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+Total investments,total_invest,Yes,Bank,Balance Sheet,"FY, Q",Q,
+Total Legal Settlements,legal_settle_ins,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,
+Total Liabilities,total_liab,Yes,Financials,Balance Sheet,"FY, Q",Q,The total value of all possible claims against the corporation.
+Total Liabilities / Total Assets,liabilities_to_assets,Yes,Risk,Computed,"FY, Q",Q,A ratio that measures the proportion of a firm's assets financed by liabilities.
+Total Liabilities And Equity,total_liabilities_equity,Yes,Financials,Balance Sheet,"FY, Q",Q,The total of all liabilities and shareholders' equity.
+Total Minority Interest,minority_interest,Yes,Financials,Income Statement,"FY, Q",Q,The reporting company's share of ownership in another company by including income or loss of the company as a portion of Net Income.
+Total Non-Interest Expense,non_int_exp_bnk,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents the total non-interest expense, as reported."
+Total Non-Interest Income,non_int_inc_bnk,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents the total non-interest income, as reported."
+Total Operating Expenses,total_oper_expen,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,The sum of all operating expenses for the given industry.
+Total Operating Leases,total_op_lease,Yes,Financials,Balance Sheet,"FY, Q",Q,
+Total Other Investments,other_invest,Yes,Insurance,Balance Sheet,"FY, Q",Q,
+Total Other Non Interest Expense,other_non_int_exp,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents realized or unrealized Gains or Losses on Foreign exchange and reported by the company in the non-interest expense section, taxes other than income tax and all recurring operating expenses reported by the company in the non-interest expense section of Income Statement, other than salaries and other employee benefits, occupancy expense, equipment expenses, federal deposit insurance expense, stock-based compensation, selling general & administration expenses, amortization of goodwill and intangible assets, asset write-down, restructuring charges, loss on sale of loans, securities, assets and business, loss on foreclosed property, merger related charges etc."
+Total Other Non Interest Income,other_non_int_inc,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"This item represents income from loan origination and loan servicing activities, fee income from non-fund based activity like investment banking & capital market fees, brokerage fees, fees for other financial services, foreign exchange gains (losses) and all recurring operating incomes reported by the company in the non interest income section of Income Statement, other than service charges on deposits, trust income, income on foreclosed property, mortgage banking revenues, investment securities gains, trading account gain (loss), gain/loss on sale of loans, assets and business, credit card fee etc."
+Total Pension Plan Assets,pension_assets,Yes,Financials,Balance Sheet,"FY, Q",Q,Assets for employee post-retirement benefits.
+Total Preferred Equity,pref_equity,Yes,Financials,Computed,"FY, Q",Q,Preferred stock that is classified as a liability because of certain ownership and return criteria.
+Total Receivables,total_receiv,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents the sum of: 1. Accounts Receivable - Trade, Accounts Receivable - Other, and Loans Receivable Current."
+Total Revenue,total_rev_bnk,Yes,Bank,Income Statement,"FY, Q, LTM, YTD",LTM,
+Total Revenue,total_rev_ins,Yes,Insurance,Income Statement,"FY, Q, LTM, YTD",LTM,This item represents the total revenue generated by the company. Adjusted for specific considerations for the Insurance industry.
+Trading Asset Securities,trading_assets,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents both debt and equity securities, which reflect active and frequent buying and selling by the company with an intention to generate profits from short-term price movements. The main motto of investment is profit generation and not long-term holding or capital appreciation."
+Trading Country,trading_country,No,Misc,Misc,,,Trading country name of the trading item
+Trading Country ISO Code,trading_country_iso,No,Misc,Misc,,,Trading country id (ISO 3-letter Code)
+Trading Currency,trading_currency,No,Misc,Misc,,,The currency in which the security trades on the subject exchange.
+Trading Region,region,No,Misc,Misc,,,The region of the exchange where the trading item trades.
+Trading to Reporting Currency FX Rate,trading_to_reporting_fx_rate,No,Valuation,Computed,D,D,The foreign exchange rate between a security's trading currency and the company's reporting currency.
+Trading to Reporting Currency Pair,trading_to_reporting_pair,No,Misc,Computed,,,The foreign exchange pair of security's trading currency and reporting currency.
+Trading Volume,volume,No,Valuation,Computed,D,D,The amount of shares traded during the day.
+Trading Volume (Trading Days Only),volume_trading,No,Valuation,Computed,D,D,The amount of shares traded during the day. Only returns data for trading days.
+Treasury Stock,treasury,Yes,Financials,Computed,"FY, Q",Q,Common shares bought back by the issuing company and held in its treasury.
+Treasury Stock & Other,treasury_other_equity,Yes,Financials,Computed,"FY, Q",Q,Common shares bought back by the issuing company and held in its treasury and other equity.
+Trust Pref. Securities,trust_pref,Yes,Financials,Balance Sheet,"FY, Q",Q,"This item represents a specific type of security possessing characteristics of both equity and debt securities. A company creates trust-preferred security by creating a subsidiary trust and providing funds through loans to the parent company. The trust issues mandatory redeemable preferred securities and the proceeds are invested by the trust in the subordinated debentures of the company, which are the sole assets of the trust. On maturity the company repays the debentures and the Trust in turn use these amounts to redeem the preferred securities. The interest flows back through the subsidiary to the preferred shareholders. Because the interest paid to the trust is tax-deductible, and the subsidiary is not taxed on the interest received because it flows to the shareholders, the company may realize significant tax benefits."
+Unadjusted EBIT,ebit_unadj,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Income before interest and taxes
+Unadjusted EBIT CAGR (10y),ebit_unadj_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in unadjusted ebit.
+Unadjusted EBIT CAGR (15y),ebit_unadj_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in unadjusted ebit.
+Unadjusted EBIT CAGR (20y),ebit_unadj_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in unadjusted ebit.
+Unadjusted EBIT CAGR (3y),ebit_unadj_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in EBIT.
+Unadjusted EBIT CAGR (5y),ebit_unadj_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in EBIT.
+Unadjusted EBIT CAGR (7y),ebit_unadj_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in EBIT.
+Unadjusted EBIT Growth,ebit_unadj_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in EBIT.
+Unadjusted EBIT Margin,ebit_unadj_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,Earnings before interest and taxes (EBIT) expressed as a percent of revenue.
+Unadjusted EBITDA,ebitda_unadj,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,"Income before interest, taxes, depreciation and amortization."
+Unadjusted EBITDA CAGR (10y),ebitda_unadj_cagr_10y,Yes,Financials,Computed,,,Ten-year compound annual growth rate in unadjusted ebitda.
+Unadjusted EBITDA CAGR (15y),ebitda_unadj_cagr_15y,Yes,Financials,Computed,,,Fifteen-year compound annual growth rate in unadjusted ebitda.
+Unadjusted EBITDA CAGR (20y),ebitda_unadj_cagr_20y,Yes,Financials,Computed,,,Twenty-year compound annual growth rate in unadjusted ebitda.
+Unadjusted EBITDA CAGR (3y),ebitda_unadj_cagr_3y,Yes,Financials,Computed,,,Three-year compound annual growth rate in unadjusted EBITDA.
+Unadjusted EBITDA CAGR (5y),ebitda_unadj_cagr_5y,Yes,Financials,Computed,,,Five-year compound annual growth rate in unadjusted EBITDA.
+Unadjusted EBITDA CAGR (7y),ebitda_unadj_cagr_7y,Yes,Financials,Computed,,,Seven-year compound annual growth rate in unadjusted EBITDA.
+Unadjusted EBITDA Growth,ebitda_unadj_growth,Yes,Financials,Computed,"FY, Q, LTM, YTD",LTM,Period over prior period growth in unadjusted EBITDA.
+Unadjusted EBITDA Margin,ebitda_unadj_margin,Yes,Efficiency,Computed,"FY, Q, LTM, YTD",LTM,"Earnings before interest, taxes, depreciation and amortization (EBITDA) expressed as a percent of revenue."
+Unearned Premiums,unearn_premium,Yes,Insurance,Balance Sheet,"FY, Q",Q,
+"Unearned Revenue Current, Total",unearn_rev_current,Yes,Financials,Balance Sheet,"FY, Q",Q,Revenue collected or promised for which the reporting company still has to provide goods or services less than 12 months into the future.
+Unearned Revenue Non Current,unearn_rev_lt,Yes,Financials,Balance Sheet,"FY, Q",Q,Revenue collected or promised for which the reporting company still has to provide goods or services over 12 months into the future.
+"Unfunded Proj. Benefit Obligation, Debt Equivalent",debt_equiv_net_pbo,Yes,Financials,Computed,"FY, Q",Q,This item represents the pre-tax debt equivalent of unfunded pension plans.
+Unlevered FCF Forecast,fcf_unlev_proj,Yes,Forecast,Estimated,"FY, Q",FY+1,Projected unlevered free cash flow.
+Unlevered FCF Forecast CAGR (10y),fcf_unlev_proj_cagr_10y,Yes,Forecast,Computed,,,Ten year compound annual growth rate in forecasted unlevered free cash flow.
+Unlevered FCF Forecast CAGR (5y),fcf_unlev_proj_cagr_5y,Yes,Forecast,Computed,,,Five year compound annual growth rate in forecasted unlevered free cash flow.
+Unlevered FCF Forecast Growth,fcf_unlev_proj_growth,Yes,Forecast,Computed,"FY, Q",FY+1,Period over prior period growth in forecasted unlevered free cash flow (UFCF).
+Unlevered FCF Forecast Margin,fcf_unlev_proj_margin,Yes,Forecast,Computed,"FY, Q",FY+1,Forecasted unlevered free cash flow as a percent of forecasted revenue.
+Unlevered Free Cash Flow,fcf_unlev,Yes,Financials,Computed,"FY, Q, LTM",LTM,"A cash flow measure that represents cash available to all providers of capital, including debt, equity, and hybrid capital. It is used to remove the impact of capital structure on a firm’s value."
+Unlevered Free Cash Flow Growth,fcf_unlev_growth,Yes,Financials,Computed,"FY, Q, LTM",LTM,Period over prior period growth in unlevered free cash flow.
+Unlevered Free Cash Flow Margin,fcf_unlev_margin,Yes,Efficiency,Computed,"FY, Q, LTM",LTM,Unlevered free cash flow expressed as a percent of revenue.
+Unlevered Free Cash Flow Yield,fcf_unlev_yield_ltm,Yes,Valuation,Computed,"FY, LTM",LTM,Measures amount of unlevered free cash flow for each dollar of enterprise value (when meaningful).
+Unlevered Return on Assets,roa_unlev,Yes,Efficiency,Computed,"FY, LTM",LTM,A ratio that measures the dollars in EBIT a business generates per dollar of assets it owns.
+Unpaid Claims,unpaid_claims,Yes,Insurance,Balance Sheet,"FY, Q",Q,
+"Unusual Items, Total",unusual_exp,Yes,Financials,Income Statement,"FY, Q, LTM, YTD",LTM,Expense incurred for charges that are deemed to be special or non-recurring.
+Upside (Analyst Target),analyst_target_upside,Yes,Valuation,Computed,"FY, Q, LTM",LTM,The percentage increase (if positive) or decrease (if negative) that professional analysts expect over the current stock price.
+WACC,wacc,Yes,Valuation,Computed,,,Finbox's estimate of the weighted average cost of capital for a company.
+Weighted Average Basic Shares Out.,shares_out_basic_wavg,Yes,Financials,Income Statement,"FY, YTD, Q",Q,"The number of shares held by shareholders including insiders but not including a company's treasury shares, sourced from the company 10-K or 10-Q SEC reports."
+Weighted Average Diluted Shares Out.,shares_out_diluted_wavg,Yes,Financials,Income Statement,"FY, YTD, Q",Q,"The number of shares held by shareholders including insiders but not including a company's treasury shares assuming conversion of all convertible debt, securities, warrants and options, sourced from the company 10-K or 10-Q SEC reports."
+Chowder Rule Number,chowder_rule,Yes,Dividends,Computed,,,A ratio that measures a company’s combined growth rate and dividend yield. Finbox calculate the Chowder Rule Number by adding the dividend yield plus five-year dividend CAGR.
+Chowder Rule Number (Fwd),chowder_rule_fwd,Yes,Dividends,Computed,,,A ratio that measures a company’s combined growth rate and dividend yield. Finbox calculate the forward Chowder Rule Number by adding the dividend yield plus five-year forecast net income CAGR.
