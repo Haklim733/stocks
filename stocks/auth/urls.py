@@ -1,4 +1,5 @@
 # noqa: E501
+APP_AUTH_URL = "https://api.schwabapi.com/v1/oauth/authorize?client_id="
 
 
 def homepage():

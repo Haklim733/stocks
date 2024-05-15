@@ -42,6 +42,57 @@ class SessionManager:
     def get_session(self):
         return self.session
 
+    async def _app_login(self, app_key: str, username, password, totp_secret=None):
+        """This function runs in async mode to perform login.
+        Use with login function. See login function for details.
+        """
+        self.playwright = await async_playwright().start()
+        if self.browserType == "firefox":
+            self.browser = await self.playwright.firefox.launch(headless=self.headless)
+        else:
+            raise ValueError("Only supported browserType is 'firefox'")
+
+        user_agent = USER_AGENT + self.browser.version
+        self.page = await self.browser.new_page(
+            user_agent=user_agent, viewport=VIEWPORT
+        )
+        await stealth_async(self.page)
+
+        await self.page.goto(urls.APP_AUTH_URL + app_key)
+
+        login_frame = "schwablmslogin"
+        await self.page.frame(name=login_frame).click('[placeholder="Login ID"]')
+        await self.page.frame(name=login_frame).fill(
+            '[placeholder="Login ID"]', username
+        )
+
+        if totp_secret is not None:
+            totp = pyotp.TOTP(totp_secret)
+            password += str(totp.now())
+
+        login_frame = "schwablmslogin"
+        await self.page.frame(name=login_frame).press('[placeholder="Login ID"]', "Tab")
+        await self.page.frame(name=login_frame).fill(
+            '[placeholder="Password"]', password
+        )
+
+        try:
+            await self.page.frame(name=login_frame).press(
+                '[placeholder="Password"]', "Enter"
+            )
+            await self.page.wait_for_url(
+                re.compile(r"app/trade"), wait_until="domcontentloaded"
+            )  # Making it more robust than specifying an exact url which may change.
+        except TimeoutError:
+            raise Exception(
+                "Login was not successful; please check username and password"
+            )
+
+        await self.page.wait_for_selector("#_txtSymbol")
+
+        await self._async_save_and_close_session()
+        return True
+
     def login(self, username, password, totp_secret=None):
         """This function will log the user into schwab using asynchronous
         Playwright and saving the authentication cookies in the session header.
@@ -139,8 +190,8 @@ class SessionManager:
 
 def construct_init_auth_url(app_key: str, app_secret: str) -> tuple[str, str, str]:
 
-    auth_url = f"https://api.schwabapi.com/v1/oauth/authorize?client_id=\
-        {app_key}&redirect_uri=https://127.0.0.1"
+    auth_url = f"https://api.schwabapi.com/v1/oauth/authorize?client_id={app_key}&\
+        redirect_uri=https://127.0.0.1"
 
     logger.info("Click to authenticate:")
     logger.info(auth_url)
@@ -184,6 +235,7 @@ def retrieve_tokens(headers, payload) -> dict:
 
 def main(app_key: str, app_secret: str):
     app_key, app_secret, cs_auth_url = construct_init_auth_url(app_key, app_secret)
+    logger.info(cs_auth_url)
     webbrowser.open(cs_auth_url)
 
     logger.info("Paste Returned URL:")
