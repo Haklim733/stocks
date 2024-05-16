@@ -22,3 +22,4 @@ ssmps.json
 *.sh
 **/secret
 **/tmp
+**/*.ipynb
