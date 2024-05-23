@@ -1,0 +1,14 @@
+/usr/bin/ls
+/usr/bin/aws
+/usr/bin/curl
+/usr/local/git*
+/usr/bin/grep
+/usr/bin/make
+/usr/bin/which
+/usr/bin/python3.9
+/usr/local/bin/pip3.9
+/usr/local/bin/pipenv
+/usr/local/bin/python3.9-config
+/usr/bin/mkfifo
+/bin/echo
+/bin/cat

@@ -1,6 +1,7 @@
 SHELL := /bin/bash
 BRANCH != git rev-parse --abbrev-ref HEAD# same as $(shell ...)
 ECR_URI = $$AWS_ACCOUNT.dkr.ecr.us-east-1.amazonaws.com# set AWS_ACCOUNT in .env or export to env var
+REPO_NAME = thetadata
 PWD != echo $$PWD
 .PHONY = config-dev config-prod build build-slim dev dev-slim rm-cache run run-slim rm rm-slim restart restart-slim rm containers push-ecr push-ecr-slim
 
@@ -12,18 +13,18 @@ config-prod:
 
 create-ecr:
 	aws ecr create-repository \
-    --repository-name garmgmt \
+    --repository-${REPO_NAME} \
     --region us-east-1 \
-    --tags '[{"Key":"env","Value":"prod"},{"Key":"repo","Value":"garmgmt"}]'
+    --tags '[{"Key":"env","Value":"prod"},{"Key":"repo","Value": ${REPO_NAME}}]'
 
 build-fat:
-	docker build -t garmgmt.fat:${BRANCH} --build-arg NODE_VERSION=18 --progress=plain -f docker/Dockerfile  --secret id=env,src=.env --build-arg BRANCH=${BRANCH} .
+	docker build -t ${REPO_NAME}.fat:${BRANCH} --build-arg NODE_VERSION=20 --progress=plain -f docker/Dockerfile  --secret id=env,src=.env --build-arg BRANCH=${BRANCH} .
 
 slimify-fat:
 	slim build --exec-file ./docker/slim-exec.sh --preserve-path-file ./docker/preserve-paths.txt --include-bin-file=./docker/preserve-bins.txt --include-path-file=./docker/preserve-paths.txt  --http-probe=false --target garmgmt.fat:${BRANCH} --tag garmgmt.slim:${BRANCH}
 
 build-lambda:
-	docker build -t garmgmt.lambda:${BRANCH} --platform linux/amd64 -f docker/lambda --secret id=env,src=.env --build-arg BRANCH=${BRANCH} --progress plain --build-arg CACHEBUST=$(date +%s) .
+	docker build -t ${REPO_NAME}.lambda:${BRANCH} --platform linux/amd64 -f docker/lambda --secret id=env,src=.env --build-arg BRANCH=${BRANCH} --progress plain --build-arg CACHEBUST=$(date +%s) .
 
 slimify-lambda:
 	slim build --exec-file ./docker/slim-exec.sh --preserve-path-file ./docker/preserve-paths.txt --include-bin-file=./docker/preserve-bins.txt --include-path-file=./docker/preserve-paths.txt  --http-probe=false --target garmgmt.lambda:${BRANCH} --tag garmgmt.lambda.slim:${BRANCH}

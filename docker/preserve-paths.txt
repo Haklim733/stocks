@@ -1,0 +1,15 @@
+/project
+/bin
+/lib/x86_64-linux-gnu
+/usr/local/lib
+/usr/local/include/python3.9
+/usr/lib/git-core
+/usr/lib/python3.9/
+/usr/lib/x86_64-linux-gnu
+/usr/lib/ssl/
+/usr/share
+/usr/libexec/coreutils/
+/etc/ld.so.cache
+/etc/ld.so.conf
+/etc/ld.so.conf.d
+/root/.local/share/
