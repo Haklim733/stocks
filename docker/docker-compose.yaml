@@ -1,0 +1,22 @@
+version: '3'
+services:
+  theta-terminal:
+    build:
+      context: ../
+      dockerfile: docker/java/Dockerfile
+    ports:
+      - "25510:25510"
+    networks:
+      - thetadata
+  theta-api:
+    build:
+      context: ../
+      dockerfile: docker/python/Dockerfile
+    depends_on:
+      - theta-terminal
+    networks:
+      - thetadata
+
+networks:
+  thetadata:
+    driver: bridge

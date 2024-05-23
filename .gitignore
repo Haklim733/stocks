@@ -17,9 +17,9 @@ template.yaml
 upload_to_ssmps.py
 ssmps.json
 *.parquet
-**/python
 *.pymon
 *.sh
 **/secret
 **/tmp
 **/*.ipynb
+ThetaTerminal.jar

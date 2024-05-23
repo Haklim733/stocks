@@ -2,3 +2,4 @@
 poetry = "latest"
 pulumi = "3.113.0"
 java = "openjdk-17"
+python = "3.11.8"
