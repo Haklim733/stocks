@@ -1,10 +1,31 @@
 import os
+import tempfile
 import time
 import requests
+import duckdb
 
 HOST = "127.0.0.1"
 if os.getenv("DOCKER"):
     HOST = "thetadata"
+
+
+def list_exp(symbol: str):
+    url = f"http://{HOST}:25510/v2/list/expirations"
+    querystring = {"root": symbol, "use_csv": "true"}
+    headers = {"Accept": "application/json"}
+    return requests.get(url, headers=headers, params=querystring)
+
+
+def cast_exp_table(res: requests.Response):
+    csv_str = res.content.decode("utf-8")
+    db = duckdb.connect(":memory:")
+    with tempfile.NamedTemporaryFile(delete=False, mode="w+") as temp:
+        temp.write(csv_str)
+        temp.flush()
+        temp_file_name = temp.name  # Get the name of the temporary file
+    db.read_csv(temp_file_name, table_name="exp")
+    # db.execute("SELECT * FROM exp").fetchall()
+    return db
 
 
 def greek_snapshot(symbol):
@@ -61,11 +82,18 @@ def quote_eod_options(
 if __name__ == "__main__":
     import pandas as pd
     from io import BytesIO
+    import duckdb
 
     time.sleep(2)
     st = time.time()
+    exps = list_exp("AMD")
+    # csv_str = exps.content.decode('utf-8')
+    cast_exp_table(exps)
+
+    # Read CSV into DuckDB
+    # print(pd.read_csv(BytesIO(eod_snapshot.content)))
     # greeks = greek_snapshot("TSLA")
-    # ohlc = ohlc_snapshot("TSLA")
+    # print(ohlc_snapshot("TSLA"))
     # open_interest = open_interest_snapshot("TSLA")
     # quote_snapshot = quote_snapshot("TSLA")
     eod_snapshot = quote_eod_options(

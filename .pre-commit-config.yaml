@@ -17,9 +17,10 @@ repos:
         exclude: 'tests'
         additional_dependencies: [flake8-black]
         args: ["--max-line-length=88", "--per-file-ignores=urls.py:E501"]
+        stages: [manual, push]
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.9.0
     hooks:
       - id: mypy
         args: [--ignore-missing-imports]  # Add any additional arguments you need
-        stages: [manual]
+        stages: [manual, push]
